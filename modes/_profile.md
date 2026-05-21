@@ -12,7 +12,9 @@
 | **Technical AI PM / Program Manager** | Discovery, roadmap, stakeholder alignment, delivery | **Secondary** — project management, agile facilitation, PO experience |
 | **AI Solutions Architect** | System design, open infrastructure, integrations | **Adjacent** — self-hosted AI stack (Flowise, n8n, OpenWebUI, Supabase) |
 
-**Avoid:** Pure developer, data engineering, traditional Scrum Master, pure academic researcher.
+**Avoid:** Pure developer, data engineering, pure academic researcher, ceremony-only Scrum Master with zero innovation mandate.
+
+**Also target:** Scrum Master (where there is coaching/change component), Agile Coach, Supply Chain Innovation, Supply Chain Finance platform roles, Docent Informatica / programming teacher (primary + secondary), Computational Thinking educator.
 
 ---
 
@@ -25,7 +27,8 @@
 | Forward Deployed / Applied AI | Self-hosted AI stack (Flowise, OpenWebUI, n8n, Supabase), beer game demonstrator, rapid prototyping | demonstrator.valuechainhackers.xyz |
 | Technical PM / Program Manager | Cross-lectoraat coordination, COVID-19 mega project (8 courses → 1), SCRUM learning system design | Windesheim, Aeres |
 | Sustainability / Greentech | CSRD/CSDDD/EUDR compliance tooling, VCH, Viridis, supply chain traceability | valuechainhackers.xyz, eco.viridis.info, velesfarming.com |
-| Education / L&D | Simulation design, game-based learning, PBL, blockchain minor, ROC Midden Nederland, Fluxus | demonstrator.valuechainhackers.xyz, mgframes.nl |
+| Supply Chain / Supply Chain Finance | AI-powered compliance demonstrator (VCH), blockchain traceability, Working Capital awareness, EUDR/CSRD tooling, supply chain risk visualisation | demonstrator.valuechainhackers.xyz, valuechainhackers.xyz |
+| Education / L&D / Programming teacher | Simulation design, game-based learning, PBL, blockchain minor, computational thinking, ROC Midden Nederland, Fluxus | demonstrator.valuechainhackers.xyz, mgframes.nl |
 | Blockchain / Web3 | Tonomy Foundation (W3C-recognized), smart contracts, Open Food Chain, Inblock.io, 2bSMART | tonomy.foundation |
 
 ---
