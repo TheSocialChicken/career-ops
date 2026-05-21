@@ -45,6 +45,22 @@ This file accumulates your best interview stories over time. Each evaluation (Bl
 
 ---
 
+### [Technical judgment / advisory] Interactive — Investment Due Diligence
+
+**Source:** Direct — advisory engagement for private investor (father-in-law), ~2021–2022
+**S (Situation):** Father-in-law considering investing in a startup called Interactive. Needed independent technical assessment before committing. Asked Christiaan to evaluate whether the investment was technically sound.
+**T (Task):** Conduct due diligence on the codebase and assess the CTO's capability to execute a full stack rewrite — the key technical dependency the whole investment thesis hung on.
+**A (Action):** Reviewed the existing codebase. Assessed technical debt, architecture decisions, and stack viability. Evaluated the CTO's demonstrated capability against the scope of the proposed rewrite. Delivered a judgment: recommended investing.
+**R (Result):** Investment made. Company achieved a 4x exit. The recommendation was correct.
+**Reflection:** Technical due diligence is as much about people as code. The question wasn't "is the code good?" — it was "can this CTO rewrite it?" Those are different assessments. Getting that right under real financial stakes validated that the judgment was sound, not just informed.
+**Best for questions about:**
+- "How do you assess technical risk?"
+- "Tell me about a high-stakes recommendation you made"
+- "How do you evaluate technical capability in others?"
+- "Describe a time your judgment was trusted and delivered"
+
+---
+
 ### [Innovation lab / ecosystem building] Windesheim AI Lab — Knopenkoning + Value Chain Hackers
 
 **Source:** Direct — Windesheim Hogeschool, current/recent engagement
