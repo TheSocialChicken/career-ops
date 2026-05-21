@@ -6,15 +6,17 @@
 
 | Archetype | What they buy | Christiaan's fit |
 |-----------|---------------|-----------------|
-| **AI Transformation Lead** | Change management, adoption, org enablement, AI rollout | **Primary** — lab building, agile education, multi-stakeholder alignment |
+| **Innovation Lab Lead / Builder** | Build and run experimental environments, design learning systems, link research to practice | **Primary** — Spark! Living Lab, VCH, Aeres, Windesheim, The Fork, Magic Frames, Veles Farming |
+| **AI Transformation Lead** | Change management, adoption, org enablement, Conscious Competence-driven rollout | **Primary** — lab building, agile education, simulation-based onboarding, multi-stakeholder alignment |
+| **Learning Experience Designer / Educator** | Simulation, game-based learning, PBL, computational thinking, programming teacher | **Primary** — beer game demonstrator, Blockchain Minor, ROC, university simulation design |
 | **AI Forward Deployed** | Client-facing, fast delivery, prototype to prod | **Primary** — incubation track record, self-hosted AI stacks, hands-on delivery |
-| **AI Innovation Lab Lead** | Build and run experimental environments, link research to practice | **Primary** — Spark! Living Lab, Value Chain Hackers, Aeres, Windesheim |
 | **Technical AI PM / Program Manager** | Discovery, roadmap, stakeholder alignment, delivery | **Secondary** — project management, agile facilitation, PO experience |
-| **AI Solutions Architect** | System design, open infrastructure, integrations | **Adjacent** — self-hosted AI stack (Flowise, n8n, OpenWebUI, Supabase) |
+| **Scrum Master / Agile Coach** | Coaching teams, removing impediments, building agile culture | **Valid when** there is a coaching/change/innovation mandate — not ceremony-only |
+| **Supply Chain Innovation / SC Finance** | AI-powered compliance, traceability, Working Capital, EUDR/CSRD | **Valid** — VCH demonstrator, blockchain traceability, Viridis |
 
-**Avoid:** Pure developer, data engineering, pure academic researcher, ceremony-only Scrum Master with zero innovation mandate.
+**Avoid:** Pure developer, data engineering, pure academic researcher, ceremony-only Scrum Master with zero innovation mandate, roles requiring deep financial modeling / CFO-adjacent duties.
 
-**Also target:** Scrum Master (where there is coaching/change component), Agile Coach, Supply Chain Innovation, Supply Chain Finance platform roles, Docent Informatica / programming teacher (primary + secondary), Computational Thinking educator.
+**Key insight for scoring:** The domain (AI, agri, art, blockchain, supply chain) is never the disqualifier. The question is always: is there something to *build* and someone to *teach*? If yes, Christiaan fits.
 
 ---
 
@@ -22,7 +24,7 @@
 
 | If the role is... | Lead with... | Proof points |
 |-------------------|--------------|--------------|
-| AI Transformation / Adoption | Conscious Competence model, 5+ labs built, 8-course merge, SafeScrum rollout | Spark! Living Lab, Aeres Innovation Hub, Windesheim |
+| AI / Any Transformation / Adoption | Conscious Competence as change model (learning innovation), simulation-based onboarding, 5+ labs built, 8-course merge, SafeScrum rollout (management innovation) | Spark! Living Lab, Aeres Innovation Hub, Windesheim |
 | Innovation Lab Lead | Spark! Living Lab (Jan 2020–present), Value Chain Hackers, AI sandbox (self-funded), Viridis Eco Lab | spark!livinglab.nl, valuechainhackers.xyz, eco.viridis.info |
 | Forward Deployed / Applied AI | Self-hosted AI stack (Flowise, OpenWebUI, n8n, Supabase), beer game demonstrator, rapid prototyping | demonstrator.valuechainhackers.xyz |
 | Technical PM / Program Manager | Cross-lectoraat coordination, COVID-19 mega project (8 courses → 1), SCRUM learning system design | Windesheim, Aeres |
@@ -47,11 +49,15 @@ Grew up on the Albert Cuyp market — learned to trade, negotiate, and take resp
 
 ## Your Cross-cutting Advantage
 
-> You are the bridge between business, IT, and management — trained formally in Business IT & Management, certified in Prince2 + Scrum + ITIL, and with 15+ years of making that bridge work in practice across labs, startups, universities, and research organizations.
+> You are a **domain-agnostic innovation builder**. The innovation type has never been the point — the frontier has. Business innovation (VCH business model), management innovation (Scrum, SafeScrum, agile at scale), learning innovation (Conscious Competence, simulation, game-based learning), technology innovation (AI stacks, blockchain traceability). Art (Magic Frames), agriculture (Veles Farming), blockchain for good (The Fork), supply chain (VCH), AI adoption (Windesheim/Aeres). Same pattern every time: find where the world is changing, build the environment where people can experience and learn it.
 
-Most people specialize in one domain. You specialize in the connections between domains. That is rare and increasingly valuable as organizations struggle to adopt AI — they need someone who speaks all three languages fluently.
+**"Tech" is a label that doesn't fully fit.** Technology is one frontier. Scrum was a management innovation. Conscious Competence is a learning innovation. The Fork was a social innovation using blockchain as a tool. Christiaan follows *innovation* — the medium (tech, method, model) is chosen based on what works, not out of identity.
 
-Frame as: **"Bridge builder between business, IT, and management — who also builds the systems."**
+**Core methodology: games, simulation, experiential learning.** Conscious Competence as the pedagogical spine. People don't change behavior by hearing about it — they change by experiencing it in a safe, designed environment. Beer game demonstrator, SafeScrum rollout, Blockchain Minor, AI lab onboarding — all designed experiences, not presentations.
+
+**Frame as:** "The person who builds the room where the learning happens — whatever form that learning needs to take."
+
+**Operational frame:** Bridge between business, IT, and management. Trained Business IT & Management (HvA, 8.7). Certified Prince2 + Scrum + ITIL. The bridge is structural, not accidental.
 
 ### Known Gaps (for evaluation scoring — not for disclosure in applications)
 
@@ -75,11 +81,12 @@ Frame as: **"Bridge builder between business, IT, and management — who also bu
 | Project | URL | Hero metric |
 |---------|-----|-------------|
 | Value Chain Hackers | https://valuechainhackers.xyz | Cross-European AI-powered supply chain lab; CSRD/EUDR compliance tooling |
-| Beer Game Demonstrator | https://demonstrator.valuechainhackers.xyz | Blockchain vs. non-blockchain simulation in active university use |
+| Beer Game Demonstrator | https://demonstrator.valuechainhackers.xyz | Blockchain vs. non-blockchain supply chain simulation in active university use |
 | Spark! Living Lab | https://sparkllivinglab.nl | Windesheim innovation lab; Jan 2020–present |
 | Viridis Eco Lab | https://eco.viridis.info/ | Blockchain ecosystem for sustainability traceability |
 | Veles Farming | https://velesfarming.com | Student concept → operating agri-tech startup → €2M funding |
-| Magic Frames | https://mgframes.nl | Student startup incubated from concept to independent launch |
+| Magic Frames | https://mgframes.nl | Art startup incubated from concept to independent launch — innovation is domain-agnostic |
+| The Fork | (blockchain for good project) | Blockchain applied to social impact — proof that the medium changes, the method stays |
 | Value Chain Hackers GitHub | https://github.com/Value-Chain-Hackers | Open-source AI traceability and compliance tooling |
 
 **In PDF Professional Summary:** Always include at least one live URL — preferably valuechainhackers.xyz or demonstrator.valuechainhackers.xyz.
