@@ -43,7 +43,7 @@ Grew up on the Albert Cuyp market — learned to trade, negotiate, and take resp
 
 **In PDF summaries:** Open with the lab-builder identity. Bridge to: "Now I'm applying that model to [role domain] — building the environments where [org's teams] can prototype and adopt AI at pace."
 
-**In STAR stories:** Reference the €2M funding (Veles Farming), 4x exit (Interactive), 8-course merge (Windesheim), W3C recognition (Tonomy) as hard proof.
+**In STAR stories:** Reference the €2M funding (Veles Farming), Interactive due diligence (code review + CTO assessment → investor 4x exit — story: "trusted my technical judgment enough to base a real money decision on it"), 8-course merge (Windesheim), W3C recognition (Tonomy), KONGSBERG CEO escalation (data contract breach, oil rig, no internet) as hard proof.
 
 **In draft answers:** Lead with systems thinking + merchant mentality. Avoid pure academic framing.
 
