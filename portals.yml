@@ -101,6 +101,27 @@ title_filter:
     - "Verandermanager"
     - "Organisatieontwikkeling"
     - "Change Agent"
+    # -- Supply chain & finance --
+    - "Supply Chain"
+    - "Supply Chain Finance"
+    - "Supply Chain Innovation"
+    - "Supply Chain Manager"
+    - "Value Chain"
+    - "Logistics Innovation"
+    - "Trade Finance"
+    - "Working Capital"
+    - "Procurement Innovation"
+    - "CSRD"
+    - "EUDR"
+    - "Chain Compliance"
+    # -- Primary education / programming teacher --
+    - "Docent Informatica"
+    - "Docent Programmeren"
+    - "Computational Thinking"
+    - "Programmeeronderwijs"
+    - "ICT-coordinator"
+    - "Onderwijs Innovatie"
+    - "Leerkracht ICT"
     # -- Dutch keywords --
     - "Innovatie"
     - "Leerlab"
@@ -1471,4 +1492,83 @@ tracked_companies:
     scan_method: websearch
     scan_query: '"Speer IT" vacatures "AI" OR "Scrum Master" OR "Agile" OR "Program Manager" OR "Innovatie"'
     notes: "NL. IT services. Agile and programme roles."
+    enabled: true
+
+  # -- NL Primary & secondary education (programming teacher) --
+
+  - name: Onderwijsvacatures.nl — Informatica / Programmeren
+    careers_url: https://www.onderwijsvacatures.nl
+    scan_method: websearch
+    scan_query: 'site:onderwijsvacatures.nl "docent informatica" OR "docent programmeren" OR "computational thinking" OR "ICT-coordinator" OR "onderwijs innovatie"'
+    notes: "NL aggregator for all school vacancies. Christiaan can teach programming, computational thinking, and AI literacy at primary/secondary level."
+    enabled: true
+
+  - name: Schoolsite.nl — Docent ICT / Programmeren
+    careers_url: https://www.schoolsite.nl/vacatures
+    scan_method: websearch
+    scan_query: 'site:schoolsite.nl "docent informatica" OR "docent programmeren" OR "computational thinking" OR "ICT" OR "AI" basisschool OR middelbare school'
+    notes: "NL school vacancy aggregator. Primary and secondary programming/ICT teacher roles."
+    enabled: true
+
+  - name: Baarnsch Lyceum
+    careers_url: https://www.baarnschlyceum.nl/vacatures
+    scan_method: websearch
+    scan_query: '"Baarnsch Lyceum" vacatures "informatica" OR "ICT" OR "programmeren" OR "docent" OR "AI"'
+    notes: "Baarn. Secondary school. Docent informatica, programmeren, computational thinking."
+    enabled: true
+
+  - name: Stichting Omthuis
+    careers_url: https://www.omthuis.nl/werken-bij
+    scan_method: websearch
+    scan_query: '"Omthuis" Baarn vacatures "AI" OR "ICT" OR "innovatie" OR "programmeren" OR "docent"'
+    notes: "Baarn. Education/youth organisation. Digital skills and programme roles."
+    enabled: true
+
+  # -- Supply chain finance & compliance platforms --
+
+  - name: Taulia
+    careers_url: https://job-boards.greenhouse.io/taulia
+    api: https://boards-api.greenhouse.io/v1/boards/taulia/jobs
+    notes: "Remote EU. SAP subsidiary, supply chain finance platform. Programme, AI, and implementation roles."
+    enabled: true
+
+  - name: Demica
+    careers_url: https://www.demica.com/careers
+    scan_method: websearch
+    scan_query: '"Demica" vacatures careers "AI" OR "Supply Chain Finance" OR "Program Manager" OR "Innovation" OR "Implementation"'
+    notes: "London/Remote. Supply chain finance technology. Implementation and programme roles."
+    enabled: true
+
+  - name: C2FO
+    careers_url: https://job-boards.greenhouse.io/c2fo
+    api: https://boards-api.greenhouse.io/v1/boards/c2fo/jobs
+    notes: "Remote EU. Working capital / supply chain finance platform. Programme and AI roles."
+    enabled: true
+
+  - name: SupplyOn
+    careers_url: https://www.supplyon.com/en/company/careers
+    scan_method: websearch
+    scan_query: '"SupplyOn" careers "AI" OR "Supply Chain" OR "Program Manager" OR "Innovation" OR "Compliance" OR "CSRD"'
+    notes: "Munich. Supply chain collaboration platform (EUDR/CSRD compliance). Very relevant to Christiaan's VCH work."
+    enabled: true
+
+  - name: Responsibly
+    careers_url: https://www.responsibly.eu/careers
+    scan_method: websearch
+    scan_query: '"Responsibly" careers "AI" OR "Supply Chain" OR "Compliance" OR "EUDR" OR "CSRD" OR "Program Manager"'
+    notes: "Amsterdam. Supply chain compliance AI (EUDR/CSRD). Direct overlap with Value Chain Hackers work."
+    enabled: true
+
+  - name: Sourcemap
+    careers_url: https://www.sourcemap.com/careers
+    scan_method: websearch
+    scan_query: '"Sourcemap" careers "AI" OR "Supply Chain" OR "Compliance" OR "EUDR" OR "CSRD" OR "Program Manager"'
+    notes: "Remote. Supply chain transparency and compliance platform. EUDR/CSRD focus."
+    enabled: true
+
+  - name: Valkre
+    careers_url: https://www.valkre.com/careers
+    scan_method: websearch
+    scan_query: '"Valkre" careers "AI" OR "Supply Chain" OR "Value Chain" OR "Program Manager" OR "Innovation"'
+    notes: "Remote EU. Value chain analytics. Relevant to VCH work."
     enabled: true
