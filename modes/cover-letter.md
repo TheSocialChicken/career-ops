@@ -121,6 +121,20 @@ Met vriendelijke groet,        (or "Kind regards," for English)
 
 If there is a relevant live URL in the proof points that adds credibility for this specific role, add it after LinkedIn. Max one URL.
 
+### Step 6.5 — Self-check before writing (mandatory)
+
+Before writing any file, scan the full draft for forbidden patterns. Do not skip this step.
+
+**Run mentally (or via grep on the draft string):**
+
+1. `—` (em-dash U+2014) → **STOP. Rewrite the sentence.** Use parentheses, a colon, a subordinate clause, or split into two sentences. Never replace with ` - `.
+2. ` - ` (space-hyphen-space as separator) → **STOP. Rewrite the sentence.** Same options as above.
+3. Formulaic openers (see Hard Rule 2) → rewrite
+4. Formulaic closers (see Hard Rule 3) → rewrite
+5. Clichés from Hard Rule 4 → replace
+
+If ANY forbidden pattern is found, fix it before proceeding to Step 7. Only write to disk after a clean draft.
+
 ### Step 7 — Output
 
 **If an application folder exists** (`applications/{###}-{company-slug}/`):
