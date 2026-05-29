@@ -177,6 +177,9 @@ Save full evaluation (blocks A-G) to:
 
 Also save a copy to `reports/{###}-{company-slug}-{YYYY-MM-DD}.md` for backward compatibility with the tracker and merge scripts.
 
+Then generate a PDF of the report:
+`node generate-pdf.mjs applications/{###}-{company-slug}/report.md applications/{###}-{company-slug}/report.pdf`
+
 - `{###}` = same number as the application folder
 
 **Report format:**
