@@ -176,15 +176,24 @@ The market performer + musician + DM + lab builder is one coherent person: read 
 
 - **Preferred:** Fully remote (EU-based companies)
 - **Acceptable:** Netherlands hybrid (1–3 days/week on-site)
+- **Also acceptable:** On-site in Málaga / Costa del Sol area (considering secondary base in Fuengirola). Commute radius: Málaga city, Marbella, Benalmádena, Torremolinos, Estepona — all within 1 hour from Fuengirola.
 - **Open to:** DACH region remote, EU-funded research/innovation programs, universities and applied research institutes
 - **Base:** Baarn, Netherlands (CET timezone)
-- **EU citizen:** No sponsorship needed
+- **Secondary base (considering):** Fuengirola, Málaga, Spain
+- **EU citizen:** No sponsorship needed for NL or ES
 
 **In evaluations (scoring):**
 - Fully remote EU → no deduction
 - Netherlands hybrid → no deduction
 - On-site Amsterdam/Utrecht/Zwolle → minor deduction (commute manageable)
+- On-site Málaga / Costa del Sol (within 1hr Fuengirola) → no deduction if secondary base is active
 - On-site outside NL 4–5 days/week, no exceptions → score 1.0 on location dimension
+
+**Spain-specific notes:**
+- No Spanish language proficiency → only English-language roles in Málaga area (international tech, remote-first companies, tourism-adjacent tech)
+- Spanish-language JDs → skip (not viable without language)
+- Remote EU roles done from Spain → no change to NL-oriented evaluation
+- Realistic on-site targets in Málaga area: international tech companies, remote-first EU orgs with Málaga office, English-language research/university roles (UMA has some English programs)
 
 ---
 

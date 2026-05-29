@@ -10,12 +10,13 @@
  * 5. All rows have proper pipe-delimited format
  * 6. No pending TSVs in tracker-additions/ (only in merged/ or archived/)
  * 7. states.yml canonical IDs for cross-system consistency
+ * 8. No em-dashes or spaced-hyphen separators in cover letter files
  *
  * Run: node career-ops/verify-pipeline.mjs
  */
 
 import { readFileSync, readdirSync, existsSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import { join, dirname, basename } from 'path';
 import { fileURLToPath } from 'url';
 
 const CAREER_OPS = dirname(fileURLToPath(import.meta.url));
@@ -181,6 +182,41 @@ for (const e of entries) {
   }
 }
 if (boldScores === 0) ok('No bold in scores');
+
+// --- Check 8: Em-dashes and spaced-hyphen separators in cover letters ---
+const EM_DASH = '\u2014';
+const SPACED_HYPHEN = / - /;
+let clViolations = 0;
+const appsDir = join(CAREER_OPS, 'applications');
+if (existsSync(appsDir)) {
+  const appFolders = readdirSync(appsDir, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name);
+  for (const folder of appFolders) {
+    for (const ext of ['md', 'html']) {
+      const clPath = join(appsDir, folder, `cover-letter.${ext}`);
+      if (!existsSync(clPath)) continue;
+      const content = readFileSync(clPath, 'utf8');
+      // For .md: skip the title line (line 1). For .html: skip the <title> tag.
+      const lines = content.split('\n');
+      lines.forEach((line, i) => {
+        const lineNum = i + 1;
+        const isTitleLine = (ext === 'md' && lineNum === 1) || (ext === 'html' && line.includes('<title>'));
+        if (isTitleLine) return;
+        if (line.includes(EM_DASH)) {
+          error(`${folder}/cover-letter.${ext}:${lineNum}: em-dash found`);
+          clViolations++;
+        }
+        // Spaced-hyphen as separator: flag only when surrounded by non-numeric context (not " - " in numbers)
+        if (SPACED_HYPHEN.test(line) && !/\d - \d/.test(line)) {
+          error(`${folder}/cover-letter.${ext}:${lineNum}: spaced-hyphen separator found`);
+          clViolations++;
+        }
+      });
+    }
+  }
+}
+if (clViolations === 0) ok('No em-dashes or spaced-hyphen separators in cover letters');
 
 // --- Summary ---
 console.log('\n' + '='.repeat(50));

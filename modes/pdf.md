@@ -15,6 +15,11 @@
 9. Reorder experience bullets by JD relevance
 10. Build competency grid from JD requirements (6-8 keyword phrases)
 11. Inject keywords naturally into existing achievements (NEVER invent)
+11.5. **Self-check before writing HTML** — scan full draft for:
+   - `—` (em-dash U+2014): **STOP. Rewrite.** Use parentheses, colon, or restructure. Never replace with ` - `.
+   - ` - ` (space-hyphen-space as separator): **STOP. Rewrite.** Same options.
+   - Parallel list rhythm (every bullet starts same way): vary structure.
+   Only proceed after a clean draft.
 12. Generate full HTML from template + personalized content
 13. Read `name` from `config/profile.yml` → normalize to kebab-case lowercase (e.g. "John Doe" → "john-doe") → `{candidate}`
 14. Write HTML to `/tmp/cv-{candidate}-{company}.html`

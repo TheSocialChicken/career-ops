@@ -90,11 +90,13 @@ compensation:
 location:
   country: "Netherlands"
   city: "Baarn"
+  secondary_base: "Fuengirola, Málaga, Spain"  # Considering on-site roles within 1hr travel; English-language only (no Spanish proficiency)
   timezone: "CET"
   visa_status: "EU citizen, no sponsorship needed"
   preferred_markets:
     - "Netherlands (remote or hybrid)"
     - "EU fully remote"
+    - "Málaga / Costa del Sol on-site (within 1hr from Fuengirola: Málaga city, Marbella, Benalmádena, Estepona)"
     - "DACH region"
     - "EU-funded research / innovation programs"
     - "Sustainability, greentech, civic-tech ecosystems"
