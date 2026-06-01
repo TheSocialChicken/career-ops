@@ -7,9 +7,11 @@
 | Archetype | What they buy | Christiaan's fit |
 |-----------|---------------|-----------------|
 | **Innovation Lab Lead / Builder** | Build and run experimental environments, design learning systems, link research to practice | **Primary** — Spark! Living Lab, VCH, Aeres, Windesheim, The Fork, Magic Frames, Veles Farming |
-| **AI Transformation Lead** | Change management, adoption, org enablement, Conscious Competence-driven rollout | **Primary** — lab building, agile education, simulation-based onboarding, multi-stakeholder alignment |
+| **Serious Games Designer / Simulation Facilitator** | Design game-based learning experiences, run simulations, make complex systems tangible | **Primary** — Beer Game Demonstrator (live university simulation), D&D GM (same muscle), SafeScrum rollout |
 | **Learning Experience Designer / Educator** | Simulation, game-based learning, PBL, computational thinking, programming teacher | **Primary** — beer game demonstrator, Blockchain Minor, ROC, university simulation design |
-| **AI Forward Deployed** | Client-facing, fast delivery, prototype to prod | **Primary** — incubation track record, self-hosted AI stacks, hands-on delivery |
+| **Research Infrastructure Strategist** | Design and govern research tooling ecosystems, open science infrastructure, reproducible workflows | **Primary** — Spark! Living Lab, VCH GitHub (open-source), SURF/TNO/esciencecenter adjacent, Windesheim |
+| **Open-Source Ecosystem Architect** | Digital sovereignty, governance design, community-driven platform strategy, interoperability | **Primary** — Tonomy Foundation (W3C-recognized), VCH GitHub, Open Food Chain, self-hosted AI stack |
+| **AI Transformation Lead** | Change management, adoption, org enablement, Conscious Competence-driven rollout | **Secondary** — lab building, agile education, simulation-based onboarding, multi-stakeholder alignment |
 | **Technical AI PM / Program Manager** | Discovery, roadmap, stakeholder alignment, delivery | **Secondary** — project management, agile facilitation, PO experience |
 | **Scrum Master / Agile Coach** | Coaching teams, removing impediments, building agile culture | **Valid when** there is a coaching/change/innovation mandate — not ceremony-only |
 | **Supply Chain Innovation / SC Finance** | AI-powered compliance, traceability, Working Capital, EUDR/CSRD | **Valid** — VCH demonstrator, blockchain traceability, Viridis |
@@ -17,6 +19,56 @@
 **Avoid:** Pure developer, data engineering, pure academic researcher, ceremony-only Scrum Master with zero innovation mandate, roles requiring deep financial modeling / CFO-adjacent duties.
 
 **Key insight for scoring:** The domain (AI, agri, art, blockchain, supply chain) is never the disqualifier. The question is always: is there something to *build* and someone to *teach*? If yes, Christiaan fits.
+
+---
+
+## Multilingual Role Title Variants
+
+Use these when scanning German, Spanish, or Dutch portals. Same archetypes, different labels.
+
+### Innovation Lab Lead / Builder
+- **EN:** Innovation Lab Lead, Lab Director, R&D Lab Lead, Innovation Studio Lead, Incubation Lead, Experimentation Lead
+- **NL:** Innovatielab Lead, Innovatiemanager, Leider Innovatielab, Hoofd Innovatie, Lab Manager Innovatie
+- **DE:** Innovationslab-Leiter, Leiter Innovation Lab, Innovationsmanager, Leiter Experimentierraum, Leiter F&E-Labor, Leiter Ideenlabor
+- **ES:** Director de Innovation Lab, Responsable de Laboratorio de Innovación, Líder de Innovación, Director de I+D, Responsable de Experimentación
+
+### Serious Games / Simulation Facilitator
+- **EN:** Serious Games Designer, Game-based Learning Designer, Simulation Designer, Simulation Facilitator, Learning Simulation Specialist, Gamification Lead, Instructional Game Designer
+- **NL:** Serious Game Designer, Spelend Leren Ontwerper, Simulatiebegeleider, Gamificatie Specialist, Leerervaring Ontwerper
+- **DE:** Serious-Games-Designer, Lernspieldesigner, Simulationsdesigner, Planspiel-Moderator, Gamification-Experte, Game-based-Learning-Designer, Lernfacilitator
+- **ES:** Diseñador de Juegos Serios, Facilitador de Simulaciones, Diseñador de Aprendizaje Basado en Juegos, Especialista en Gamificación, Diseñador de Experiencias de Aprendizaje
+
+### Learning Experience Designer / Educator
+- **EN:** Learning Experience Designer (LXD), Instructional Designer, Learning Innovation Lead, L&D Designer, Curriculum Designer, Educational Technology Lead
+- **NL:** Leerervaring Ontwerper, Onderwijsontwerper, L&D Designer, Curriculumontwikkelaar, Onderwijs Innovator, Educatief Ontwerper
+- **DE:** Lerndesigner, Learning Experience Designer, Bildungsdesigner, Didaktikdesigner, Lernarchitekt, Konzepteur für Lernumgebungen, E-Learning-Konzepter
+- **ES:** Diseñador de Experiencias de Aprendizaje, Diseñador Instruccional, Especialista en L&D, Diseñador Educativo, Tecnólogo Educativo
+
+### Research Infrastructure Strategist
+- **EN:** Research Infrastructure Strategist, Research Technology Manager, eResearch Strategist, Open Science Lead, Digital Research Infrastructure Lead, Research Computing Lead, Research Software Lead
+- **NL:** Onderzoeksinfrastructuur Strateeg, Research Infrastructure Manager, Open Science Coördinator, Digitale Research Infrastructuur Lead
+- **DE:** Forschungsinfrastruktur-Stratege, Leiter Forschungsinfrastruktur, Research-Infrastructure-Manager, Open-Science-Beauftragter, Wissenschaftsinfrastruktur-Berater, eForschungs-Stratege
+- **ES:** Estratega de Infraestructura de Investigación, Director de Infraestructura de Investigación, Responsable de Infraestructura Científica, Líder de Ciencia Abierta
+
+### Open-Source Ecosystem Architect
+- **EN:** Open-Source Ecosystem Architect, Developer Ecosystem Lead, Open Source Program Manager (OSPO), Community Ecosystem Manager, Platform Ecosystem Strategist, Open Standards Lead
+- **NL:** Open-Source Ecosysteem Architect, Community Ecosysteem Manager, Developer Ecosysteem Lead, Open Source Programmamanager
+- **DE:** Open-Source-Ökosystem-Architekt, Community-und-Ökosystem-Manager, Open-Source-Stratege, Plattform-Ökosystem-Manager, Developer-Ecosystem-Lead
+- **ES:** Arquitecto de Ecosistema Open Source, Gestor de Ecosistema de Código Abierto, Director de Ecosistema para Desarrolladores, Estratega de Plataforma Open Source
+
+### Agile Coach / Scrum Master
+- **EN:** Agile Coach, Scrum Master, Agile Transformation Lead, Enterprise Agile Coach, Delivery Lead, Agile Consultant
+- **NL:** Agile Coach, Scrum Master, Agile Consultant, Verandercoach (agile), Agile Trainer
+- **DE:** Agile Coach, Scrum Master, Agile Berater, Agilitätsberater, Transformationsbegleiter, Agile Transformationsmanager
+- **ES:** Agile Coach, Scrum Master, Coach Ágil, Consultor de Agilidad, Líder de Transformación Ágil
+
+### Digital Transformation Lead
+- **EN:** Digital Transformation Lead, Change Lead, Digitalization Manager, Transformation Director, Digital Strategy Lead
+- **NL:** Leider Digitale Transformatie, Digitaliserings-manager, Verandermanager Digitalisering, Digital Transformation Lead
+- **DE:** Leiter Digitale Transformation, Digitalisierungsmanager, Digital Transformation Manager, Transformationsmanager, Leiter Digitalisierung
+- **ES:** Director de Transformación Digital, Responsable de Transformación Digital, Líder de Digitalización, Manager de Cambio Digital
+
+---
 
 ---
 
@@ -109,11 +161,14 @@ The market performer + musician + DM + lab builder is one coherent person: read 
 - ENFP-T: ideas-driven, connector, energizer, thrives on variety and building — struggles with pure maintenance/repetition
 - Slight ADHD: strength in creative environments, rapid context switching, innovation — at risk in heavily process-constrained roles
 - **Starter, not finisher:** Strongest at stage 0→1 and 1→2. Getting things off the ground, building the first version, establishing the system. Less energized by maintenance, optimization, or steady-state operations. This is a feature in innovation/lab/transformation roles — flag it as a risk in ops/maintenance roles.
+- **Dispersion is the primary risk — not incompetence.** Christiaan naturally thinks across infrastructure, governance, pedagogy, automation, research, and org systems simultaneously. This creates too many parallel directions, cognitive overload, unfinished initiatives, difficulty prioritizing, and occasional social friction when others can't follow the non-linear path. **Scoring implication:** flag roles that require single-threaded focus on one narrow domain without creative latitude — not because he can't do them, but because the dispersion risk is highest there. Boost roles that explicitly value breadth and allow context-switching between domains.
+- **Operational scaffolding need:** Christiaan works best with co-pilots and execution partners — a trusted person or team who handles prioritization, keeps things moving, and completes what he starts. The Tonomy solo sales failure is the hard proof: without this scaffolding, dispersion wins. **Scoring implication:** flag roles requiring solo execution without team support, especially sales-heavy or ops-heavy roles. Boost roles that mention strong team, clear execution structure, or collaborative working model.
 - **Multi-position strategy:** Optimal working model is 2-3 concurrent part-time or fractional engagements, NOT one full-time employer. Switching between different contexts keeps work feeling new. His entire career demonstrates this — he has never had just one role at a time. **Actively target roles that are 0.6 FTE, 3-4 days/week, fractional, or explicitly open to part-time.**
 - **Implication for role scoring:**
-  - Boost score for: part-time/fractional, project-based, 3-4 days/week, early-stage, "build from scratch" mandates
-  - Penalty for: pure maintenance/ops, single full-time employer expecting 100% focus, heavily process-constrained with no building component
+  - Boost score for: part-time/fractional, project-based, 3-4 days/week, early-stage, "build from scratch" mandates, strong team/co-pilot present, breadth valued explicitly
+  - Penalty for: pure maintenance/ops, single full-time employer expecting 100% focus, heavily process-constrained with no building component, solo execution without team support
   - Flag "engagement risk" in evaluations when role is purely ceremonial (e.g. Scrum Master ceremonies only)
+  - Flag "dispersion risk" when role requires single-threaded narrow focus with no creative latitude
 - **Implication for positioning:** Never frame as "specialist." Always frame as "connector who builds and launches." The breadth across business, IT, and management IS the differentiator. The concurrent career track record IS the proof that the multi-position model works.
 
 ---
