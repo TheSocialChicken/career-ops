@@ -127,6 +127,14 @@
 - [ ] https://www.cbs.nl/nl-nl/vacature/scrum-master/9a68cc0214394fb4b5d2fc24acf3e525 | CBS | Scrum Master — €4,691–€6,907/month, 36h, Heerlen/Den Haag
 - [ ] https://www.werkenvoornederland.nl/vacatures/product-owner-overheidsbrede-dienstverlening-BZK-2026-2018 | BZK / Rijksorganisatie ODI | Product Owner Overheidsbrede Dienstverlening — Den Haag
 
+## NL Energy Sector — NEW 2026-06-03
+
+- [ ] https://werkenbij.alliander.com/vacature/senior-scrum-master-netdigitalisering/JR18370/ | Alliander | Senior Scrum Master Netdigitalisering — CONFIRMED LIVE deadline June 12, Arnhem, €4,581–€6,544/mo, 32-40h, SAFe/Scrum, coaches ART teams in OT/energy infra domain. URGENT.
+- [ ] https://www.werkenbijanwb.nl/vacature/942/scrum-master-hulpverlening | ANWB | Scrum Master Hulpverlening — Den Haag, €3,939–€6,403/mo + 5.58% bonus, hybrid, PSM I+II required (gap), roadside assistance domain
+- [ ] https://www.werkenbijanwb.nl/vacature/672/scrum-master-group-it-data-1 | ANWB | Scrum Master Group IT & Data — Den Haag, €3,613–€5,982/mo + 5.58% bonus, PSM I+II required (gap)
+- [ ] https://www.werkenbijanwb.nl/vacature/567/scrum-master-platform-1 | ANWB | Scrum Master Platform — Den Haag, €3,613–€5,982/mo, PSM I+II required (gap)
+- [ ] https://www.werkenbijanwb.nl/vacature/611/scrum-master-anwb-reizen | ANWB | Scrum Master ANWB Reizen — Den Haag, travel domain, PSM I+II required (gap)
+
 ## NL Private Sector — Agile / Program Management
 
 - [ ] https://www.werkenbijns.nl/vacatures/scrum-master-utrecht-1290134 | NS | Scrum Master — posted 22-05-2026, Utrecht, expert in Agile philosophy + Scrum, guides multiple teams
