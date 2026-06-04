@@ -42,9 +42,9 @@ Christiaan recognized this was a box-ticking exercise. The skills were not being
 
 (The Houston engineer — who had described himself as highly skilled with a military background and strong mathematics — managed to fail at the task. This detail has never stopped being relevant to conversations about training methodology.)
 
-### Azerbaijan — The Contract Confrontation
+### Azerbaijan — Emergency Deployment, Then Contract Confrontation
 
-Azerbaijan assignment: maintain an existing BP rig deployment while it was being upgraded by another engineer.
+Azerbaijan was not a routine assignment. It was an emergency position. The existing setup had **failed but was still in production** — data quality was broken on a live BP system. Christiaan was sent because of his demonstrated ability to cope in problem-heavy environments. His job: stabilize a failed system that couldn't be taken offline, while maintaining data quality and holding service providers to their contracts.
 
 GeoServices (a subcontractor on the rig) was not sharing data with KONGSBERG. GeoServices' reason: the data has commercial value to them. The actual situation: BP owned that data by contract, and KONGSBERG needed it to do its job.
 
@@ -56,17 +56,25 @@ Within one day, the data was flowing.
 
 **Proof point:** Commercial/contractual dispute resolution. No seniority, no title, no company backing beyond a contract. Read the document, found the clause, held the position.
 
-### The Thesis — And Why It Was Never Delivered
+### The Thesis — Completed, Submitted, and Still Doubted
 
-One year after returning from the field, Christiaan proposed a thesis for KONGSBERG on learning methodology. The premise: instead of three weeks of PowerPoint followed of three months of free experimentation, engineers should face simulated problems — realistic scenarios designed to trigger the same failures and decisions they would encounter in the field.
+One year after returning from the field, KONGSBERG itself opened up the opportunity to research training methods. Christiaan proposed a thesis on learning methodology — the premise: instead of three weeks of PowerPoint followed by three months of free experimentation, engineers should face simulated problems — realistic scenarios designed to trigger the same failures and decisions they would encounter in the field.
 
-This is the Conscious Competence model applied to technical training. You learn what you don't know by encountering it in a controlled environment, not by reading about it.
+The thesis was real, serious work. 97 pages. Qualitative research — surveys and interviews with VP Sales, senior account managers, support engineers, developers. He mapped FSE responsibilities, designed KPI frameworks KONGSBERG had never had, produced a full FSE Deployment Flow Diagram that documented a process that previously had no documentation. He analyzed Bloom's Taxonomy, VAK learning theory, Gardner's Multiple Intelligences, and the Competence Learning Model. He flew to Norway (January 2014) to conduct interviews. Grade: **8.7**.
 
-The thesis was completed. It was never delivered to KONGSBERG. Christiaan was embarrassed — convinced the work was not good enough, unsure of its quality. He struggles when uncertain about his own output. The thesis sat. KONGSBERG never got the final version.
+The thesis was submitted to HvA and completed. Whether KONGSBERG received the final version is unclear — the thesis was written for them and intended for them, but the Afterword reveals the self-doubt:
 
-He declined the permanent contract offer at the same time. Was still in school, was confused by the terms, and chose to continue his studies. In hindsight: one of the clearest examples of the gap between what he could do and what he was willing to claim credit for.
+> *"The thesis, covering such a large subject, is to my eyes not yet finished... it's way too long. The result being so dragged out makes the thesis a pain to correct in terms of spelling, which is not my strongest point. I think I personally spend about 7-8 hours just on grammar and spelling alone."*
 
-**Character note:** High performer who underestimates his own output when uncertain. Confident in the field, hesitant to own the product afterward. This has shown up more than once.
+The Reflection is even more honest:
+
+> *"I still feel a bit stressed as to the reaction the thesis will trigger. Will it be accepted? Is it good, great? Or is this too complex? Perhaps it doesn't meet the original demand."*
+
+And then, in the same paragraph: *"I am happy that I touched upon being a 'business process designer' — something I always wanted to be."*
+
+**Character note:** High performer who underestimates his own output when uncertain. The thesis was rigorous, professionally formatted, and earned an 8.7. He was convinced it wasn't good enough. This pattern — confidence in execution, doubt about the product — has appeared multiple times since.
+
+**Also note:** 100% of KONGSBERG interview participants said that training cannot be accomplished by electronic means alone. This finding — that digital tools support but cannot replace human presence in technical learning — echoes in every learning design decision Christiaan has made since.
 
 ### What Kongsberg Actually Taught
 
@@ -102,11 +110,29 @@ The Houston pivot was not ignoring the assignment. It was recognizing the assign
 
 ---
 
-## WDS Global — The First Blocked Innovation (pre-2012, UK)
+## The Education Path — Not Linear
+
+Most people look at the CV and see a straight line: HAVO → HvA Business IT → career. The actual path was not straight.
+
+**2006–2007: Technical Informatics, HvA.** Started with pure technical track. Too narrow.
+
+**2007–2008: HBO Maths Teacher, Inholland.** Tried to become a maths teacher. Left after one year. The teaching instinct was right; the institutional format was wrong.
+
+**2008–2009: WDS Global, UK.** Left school, went to England, ran a support team, had the video idea, realized he couldn't turn ideas into proposals.
+
+**2009–2013: Business IT & Management, HvA.** Returned to school with a specific mission: learn how to build business cases. Four years. Grade 8.7. Thesis written in collaboration with a global industrial company. Offshore Survival / HUET certification obtained during the KONGSBERG field deployment period.
+
+**2013: Minor E-discovery, HvA.** Digital forensics specialization — legal/investigative application of data analysis. Included an intensive EDRM forensics course in Laval, France — findings received formal recognition.
+
+**What this path means:** He didn't study Business IT because it was the obvious choice. He studied it because he had already failed to execute a good idea once and knew exactly what skill he was missing. Each departure (from Informatics, from Teacher training, from WDS) was a deliberate redirect, not a failure to commit.
+
+---
+
+## WDS Global — The First Blocked Innovation (May 2008 – June 2009, UK)
 
 ### Context
 
-WDS Global was a UK-based outsourced technical support company handling European customer support for multiple telecom operators and phone brands simultaneously — KPN, Orange, T-Mobile, HTC, LG, Nokia, and others. Not a single-client shop; a multi-brand, multi-operator support hub. Christiaan was stationed in Poole, UK, handling Dutch-language support. Within a short time was running the entire Dutch team.
+WDS Global was a UK-based outsourced technical support company handling European customer support for multiple telecom operators and phone brands simultaneously — KPN, Orange, Mobistar, HTC, Tesco Mobile, and others. Not a single-client shop; a multi-brand, multi-operator support hub. Christiaan was stationed in Poole, UK, handling Dutch-language support. Within a short time was running the entire Dutch team.
 
 The HTC tutorial video proposal came from working across this multi-brand environment — he could see the same customer education problem repeating across every brand. HTC was the one with the most pressing need: expensive, feature-rich Android devices that customers didn't understand.
 
@@ -130,6 +156,8 @@ This was the moment that drove him to choose Business IT & Management at HvA. He
 
 **Postscript:** HTC eventually did produce tutorial videos independently — but too late. By then they had already lost significant market share to competitors. The idea was correct. The timing mattered. The organization that could have executed it first chose not to.
 
+**Important correction from old CV:** The proposal was not just "well received" in Japan — it was **approved by Tokyo**. Resources were still not provided. An approved idea with no execution budget is worse than a rejected one; it means the organization knew it was right and still didn't move.
+
 **Use this framing:** Not "my idea got stolen." Rather: "I saw what needed to happen, the org couldn't move fast enough, and the market proved the point." Classic early-signal problem. Use for roles about innovation velocity, organizational change, or why transformation speed matters.
 
 ### Scotland
@@ -146,14 +174,62 @@ He recognized the pattern: one metric, always just wrong, regardless of performa
 
 ---
 
+## Self-Assessment — What He Said About Himself (2011–2014)
+
+From HvA school documents and CVs written before any of this became a career narrative. Raw self-descriptions in his own words.
+
+### COP (Competentie Ontwikkel Plan), February 2011
+
+Self-scored competencies (1 = low, 5 = high):
+
+| Competency | Score | Note |
+|-----------|-------|------|
+| Vakkundigheid (expertise) | 4 | |
+| Innovatief vermogen (innovation) | 4 | |
+| Resultaatgerichtheid (results focus) | 3 | Middle — he knew this was a gap |
+| Ondernemend gedrag (entrepreneurial) | 5 | Top score |
+| Besluitvaardigheid (decisiveness) | 2 | Explicit weakness |
+| Communiceren (formal communication) | 2 | Explicit weakness |
+| Samenwerken (teamwork) | 4 | |
+| Klantgerichtheid (customer focus) | 5 | Top score, tied with entrepreneurial |
+| Ontwikkelingsgericht (growth orientation) | 4 | |
+
+**What this means:** At 21, he already knew exactly where his gaps were. Entrepreneurial energy and customer warmth at the top. Decisiveness and formal communication at the bottom. Not surprising for an ENFP — lots of ideas, slower on committing, informal rather than structured in communication. He was self-aware enough to write it down.
+
+### Where he said he fits (2011, his own words)
+
+> "Ik kan mij aanpassen maar niet in een bedrijf waar ik niet in kan groeien. Ik heb de ambitie om gezien te worden, uniek te zijn. Maar het moet wel dynamisch blijven. Ik heb gewoon een omgeving nodig die mij scherp houdt. Ik ben iemand die veel praat, veel om handen wil hebben en veel wil leren."
+
+Translation: *"I can adapt, but not in a company where I can't grow. I have the ambition to be seen, to be unique. But it has to stay dynamic. I just need an environment that keeps me sharp. I am someone who talks a lot, wants to have a lot on my plate, and wants to learn a lot."*
+
+Ideal environment keywords (his own list): Dynamic, Technically advanced, Challenge, Open-minded.
+
+### "Groepsdenker" — Group Thinker (2014 CV self-description)
+
+> "Denkt vanuit de groep inplaats van de individu en bemiddeld vanuit nature tussen verschillende partijen om tot een gezamelijke oplossing te komen."
+
+Translation: *"Thinks from the group perspective instead of the individual, and naturally mediates between different parties to reach a joint solution."*
+
+This is the bridge-builder identity stated explicitly — not as a skill, but as a default orientation. He doesn't mediate because he learned to. He mediates because it's how he processes problems.
+
+### The Washington DC ambition (2011)
+
+In the same COP, he mentions wanting to work at **Nucletron** in Washington DC — a radiation therapy / medical tech company. His brother-in-law had connections. He was actively trying to get an interview there during his second year at HvA.
+
+This never happened, but it's telling: even at 21, he was aiming for international, cutting-edge tech in a mission-driven sector. Not just "get a job." Find the interesting problem in a field that matters.
+
+---
+
 ## Key Proof Points for Applications
 
 | Story | Use for |
 |-------|---------|
-| WDS video proposal | Early innovation instinct, user education gap identification, ideas that reached global HQ |
+| WDS video proposal | Early innovation instinct, user education gap identification, ideas that Tokyo applauded |
+| WDS 2nd/3rd line in 2 months | Fast learner, self-directed progression, took over Dutch team |
 | WDS innovation team failure | One person with the right idea vs. six people with no real intent — execution over headcount |
 | WDS Scotland training | On-the-ground user education, field facilitation, sales enablement through understanding |
 | WDS leaving on principle | Recognizing exploitation, self-respect, not waiting for an organization to change |
+| Azerbaijan emergency deployment | Sent because of problem-heavy environment track record; stabilized a failed live production system |
 | Jordan dead-switch | Technical problem-solving without support, regulated environments, debugging under pressure |
 | Azerbaijan contract | Commercial relationship building, holding position without seniority, reading and applying contract terms |
 | Training observation | Learning methodology, Conscious Competence, simulation design, why classical training fails |

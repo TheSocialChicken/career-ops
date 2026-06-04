@@ -163,13 +163,13 @@ Deployed across four countries (Jordan, Oman, Houston TX, Azerbaijan). Was the o
 **System Manager & Researcher**
 2010 – 2011
 
-Joined as intern to implement Nagios monitoring across all client environments, giving the service desk real-time visibility into machine health and uptime. Completed the full implementation within two months. Independently identified a new revenue opportunity with the sales department: installing professional identification card readers for a new healthcare access system being rolled out across the Netherlands. During each site visit at hospitals, pharmacies, and clinics, proactively assessed and optimized on-site computers — running defragmentation and registry cleaning — turning a 10-minute job into a thorough 90-minute service visit that clients valued and management could bill for. This role was also where Linux became a serious tool, introduced by founder Ed van der Salm — the foundation for all subsequent infrastructure and DevOps work.
+Joined as intern to implement Nagios monitoring across all client environments, giving the service desk real-time visibility into machine health and uptime. Completed the full implementation within two months. Independently identified and landed two new revenue opportunities: first, a contract installing professional identification card readers for a new healthcare access system being rolled out across the Netherlands; second, a follow-on service contract when — during each hospital site visit — proactively asking doctors if their computers had any issues and cleaning them up on the spot turned a 10-minute hardware job into a 90-minute billable service visit. Both contracts were won through personal initiative. This role was also where Linux became a serious tool, introduced by Ed van der Salm — the foundation for all subsequent infrastructure and DevOps work.
 
 ### WDS Global -- Poole, England
 **Technical Support Engineer (3rd Line) & Trainer**
-2008 – 2010
+2008 – 2009
 
-Multi-brand outsourced technical support hub for the European market — handled Dutch-language support across all major telecom operators and device manufacturers including KPN, Orange, T-Mobile, HTC, LG, and Nokia. Quickly took over management of the entire Dutch support team. Cleared a backlog of over 10,000 customer emails by redesigning templates and workflows. Proposed embedding tutorial videos in devices and publishing them on YouTube to reduce inbound support volume and improve customer understanding — the proposal reached HTC's head office in Japan and was well received. HTC later adopted the concept independently. Trained retail staff at Tesco Scotland on smartphone features and sales techniques.
+Multi-brand outsourced technical support hub for the European market — handled Dutch-language support across all major telecom operators and device manufacturers including KPN, Orange, Mobistar, HTC, and Tesco Mobile, covering Symbian, Windows Mobile, and early Android platforms. Progressed from 1st to 3rd line support within two months. Within three months was unofficially leading the Dutch department. Cleared a backlog of over 10,000 customer emails by redesigning templates and workflows. Proposed embedding tutorial videos in devices and publishing them on YouTube to reduce inbound support volume and improve customer understanding — the proposal reached HTC's head office in Japan and was well received. HTC later adopted the concept independently. Trained retail staff at Tesco Scotland on smartphone features and sales techniques.
 
 ## Projects
 
@@ -184,6 +184,7 @@ Multi-brand outsourced technical support hub for the European market — handled
 ## Education
 
 - **Bachelor of Business Administration, Business IT & Management** -- Hogeschool van Amsterdam (2010–2014), grade 8.7. Thesis: simulation-based learning and training methodology at Kongsberg.
+- **Teacher Training, Mathematics** -- Hogeschool Inholland (2007–2008)
 - **Technical Informatics** -- Hogeschool van Amsterdam (2006–2007)
 - **Senior General Secondary Education (HAVO), Theoretical and Mathematical Physics** -- Hermann Wesselink College (2002–2006)
 
