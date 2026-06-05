@@ -218,6 +218,39 @@ The market performer + musician + DM + lab builder is one coherent person: read 
 
 ---
 
+## CV Timeline Policy (CRITICAL — read before every CV generation)
+
+**Every role from cv.md MUST appear in every generated CV.** No exceptions.
+
+A gap in the timeline looks worse than an irrelevant job. Recruiters see gaps as red flags; they see a compact entry as normal career breadth.
+
+### Rules:
+
+1. **All roles present** — include every position from cv.md. Never omit to save space.
+2. **Relevance determines depth, not presence:**
+   - **Directly relevant** → full treatment: exp-desc paragraph + 2-3 bullets
+   - **Background/context** → compact: company line + 1 bullet max (e.g. V.O.F. Verhoef, WDS, Meerschap)
+   - **Brief stints** → one-liner: role + company + period, no bullets needed
+3. **Show long work history** — Christiaan has been working continuously since ~2004. That span signals reliability, breadth, and real-world seasoning. Surface it.
+4. **Order:** Reverse chronological. Ongoing roles first (heden), then historical, oldest last.
+5. **Gap check before finalizing:** Verify complete chain — WDS (2008-09) → Meerschap (2010-11) → KONGSBERG (2012-13) → [2014-2016 bridge: Social Chicken start / freelance] → Social Chicken (2016-2022) → The Fork (2018-2020) → Windesheim (2020-heden). No year should be unaccounted for.
+
+### Compact entry format (for low-relevance roles):
+```html
+<div class="exp-item">
+  <div class="exp-header">
+    <span class="exp-role">{Role}</span>
+    <span class="exp-period">{Period}</span>
+  </div>
+  <div class="exp-company">{Company}, {City}</div>
+  <ul class="bullets">
+    <li>{One compact line capturing what it was}</li>
+  </ul>
+</div>
+```
+
+---
+
 ## CV Language Policy
 
 - **Dutch companies** (NL-registered, NL careers page, Dutch JD) → generate CV in **Dutch**
