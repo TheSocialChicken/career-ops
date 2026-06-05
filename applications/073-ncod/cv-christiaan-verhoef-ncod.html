@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christiaan Verhoef -- CV -- NCOD Medior Adviseur Digitale Overheid</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  :root {
+    --teal: hsl(187, 74%, 32%);
+    --teal-light: hsl(187, 60%, 48%);
+    --teal-pale: hsl(187, 40%, 92%);
+    --purple: hsl(270, 70%, 45%);
+    --ink: #1a1a2e;
+    --muted: #555;
+    --light: #f8f9fc;
+    --border: #e0e4ef;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: var(--ink);
+    background: #fff;
+  }
+
+  .page {
+    width: 210mm;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 64mm;
+    grid-template-rows: auto 1fr;
+  }
+
+  /* ======== HEADER ======== */
+  .header {
+    grid-column: 1 / -1;
+    padding: 16mm 18mm 10mm 18mm;
+    background: #fff;
+  }
+  .header-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    margin-bottom: 2px;
+  }
+  .header-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--teal);
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, var(--teal), var(--purple));
+    border-radius: 1px;
+    margin-bottom: 8px;
+  }
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 9.5px;
+    color: var(--muted);
+  }
+  .contact-row a { color: var(--muted); text-decoration: none; }
+
+  /* ======== MAIN ======== */
+  .main {
+    padding: 10mm 10mm 14mm 18mm;
+    min-width: 0;
+  }
+
+  .section { margin-bottom: 10px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--teal);
+    border-bottom: 1.5px solid var(--teal-pale);
+    padding-bottom: 3px;
+    margin-bottom: 7px;
+  }
+
+  .profile-text {
+    font-size: 10.5px;
+    line-height: 1.7;
+    color: var(--ink);
+  }
+
+  /* ======== EXPERIENCE ======== */
+  .exp-item { margin-bottom: 9px; }
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 1px;
+  }
+  .exp-role {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .exp-period {
+    font-size: 9px;
+    color: var(--muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .exp-company {
+    font-size: 9.5px;
+    color: var(--teal);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .exp-desc {
+    font-size: 10px;
+    color: var(--ink);
+    line-height: 1.6;
+    margin-bottom: 3px;
+  }
+  ul.bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.bullets li {
+    font-size: 10px;
+    line-height: 1.6;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 1px;
+    color: var(--ink);
+  }
+  ul.bullets li::before {
+    content: '--';
+    position: absolute;
+    left: 0;
+    color: var(--teal);
+    font-weight: 700;
+  }
+
+  /* ======== SIDEBAR ======== */
+  .sidebar {
+    background: var(--light);
+    border-left: 1px solid var(--border);
+    padding: 10mm 10mm 14mm 10mm;
+  }
+
+  .sidebar-block { margin-bottom: 10px; }
+
+  .skill-group { margin-bottom: 6px; }
+  .skill-label {
+    font-size: 8.5px;
+    font-weight: 700;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 3px;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .tag {
+    font-size: 8px;
+    padding: 1px 5px;
+    background: #fff;
+    border: 1px solid var(--border);
+    color: var(--ink);
+    border-radius: 2px;
+  }
+  .tag.highlight {
+    background: var(--teal);
+    border-color: var(--teal);
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .cert-item {
+    font-size: 9.5px;
+    color: var(--ink);
+    padding: 3px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .cert-item:last-child { border-bottom: none; }
+
+  .edu-item { margin-bottom: 6px; }
+  .edu-degree {
+    font-size: 9.5px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .edu-school {
+    font-size: 9px;
+    color: var(--muted);
+    margin-top: 1px;
+  }
+
+  .lang-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9.5px;
+    padding: 2px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .lang-item:last-child { border-bottom: none; }
+  .lang-name { font-weight: 600; }
+  .lang-level { color: var(--muted); }
+
+  .kv-table { width: 100%; border-collapse: collapse; }
+  .kv-table td {
+    font-size: 9.5px;
+    padding: 2px 0;
+    vertical-align: top;
+  }
+  .kv-table td:first-child {
+    color: var(--muted);
+    width: 44%;
+    padding-right: 4px;
+  }
+  .kv-table td:last-child { font-weight: 600; color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-name">Christiaan Verhoef</div>
+    <div class="header-title">Adviseur Digitale Overheid &amp; AI | Van beleid naar werkende infrastructuur</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>Baarn, Nederland</span>
+      <span>+31 6 30 18 47 43</span>
+      <span><a href="mailto:christiaan_gerardo@hotmail.com">christiaan_gerardo@hotmail.com</a></span>
+      <span><a href="https://linkedin.com/in/christiaanverhoef">linkedin.com/in/christiaanverhoef</a></span>
+    </div>
+  </div>
+
+  <!-- MAIN COLUMN -->
+  <div class="main">
+
+    <!-- PROFIEL -->
+    <div class="section">
+      <div class="section-title">Profiel</div>
+      <p class="profile-text">
+        Adviseur met 12 jaar ervaring op het snijvlak van digitalisering, AI en complexe multi-stakeholder organisaties. Heeft meerdere AI-landschappen daadwerkelijk gebouwd: self-hosted AI-stacks voor kennisinstellingen, governance-tooling voor CSRD/EUDR-compliance, en open-source digitale identiteitsinfrastructuur relevant voor eIDAS2 en overheidsdiensten. Begrijpt wat een AI-landschap in de praktijk vereist (privacy, datasoevereiniteit, Woo/AVG-implicaties), niet alleen wat een beleidsnota erover schrijft. Communiceert even helder met bestuurders als met technische teams. Prince2, ITIL, 15 jaar agile practitioner.
+      </p>
+    </div>
+
+    <!-- WERKERVARING -->
+    <div class="section">
+      <div class="section-title">Werkervaring</div>
+
+      <!-- Windesheim / VCH -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Projectmanager &amp; AI-adviseur</span>
+          <span class="exp-period">jan 2020 &ndash; heden</span>
+        </div>
+        <div class="exp-company">Windesheim Hogeschool, Zwolle | Supply Chain Finance Lectoraat</div>
+        <p class="exp-desc">Bouwt en beheert AI-landschappen en complianceoplossingen voor gereguleerde omgevingen. Verbindt beleidsvraagstukken aan werkende technische implementaties.</p>
+        <ul class="bullets">
+          <li><strong>AI-landschap opgezet (2024&ndash;heden):</strong> Self-hosted stack (Flowise, OpenWebUI, n8n, Supabase, Docker op Linux) voor studenten en onderzoekers. Governance, privacy-by-design, datasoevereiniteit ingebakken. Niet afgenomen uit de cloud; eigenhandig ingericht en beheerd.</li>
+          <li><strong>Value Chain Hackers:</strong> AI-gedreven compliance-tooling voor CSRD, EUDR en CSDDD. Dezelfde governance-logica als Woo/AVG-vraagstukken in de publieke sector: wie mag welke data zien, hoe aantoon je dat, hoe log je audits. Principal investigator en programmamanager.</li>
+          <li><strong>Spark! Living Lab:</strong> Blockchain-simulatielab van nul opgericht (2020&ndash;2023). Beer Game demonstrator live, externe partners, DevOps volledig zelfbeheerd. Van concept naar operationeel programma.</li>
+          <li><strong>COVID-19 Megaproject:</strong> Interdisciplinair onderzoek naar ziekenhuisbelasting en supply chain-verstoringen; KPI-gestuurd afgerond onder extreme tijdsdruk.</li>
+          <li>Co-auteur granttrajecten; ca. &euro;2M aan innovatiefinanciering gefaciliteerd.</li>
+        </ul>
+      </div>
+
+      <!-- Tonomy -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Co-oprichter &amp; Bestuurslid</span>
+          <span class="exp-period">2021 &ndash; heden</span>
+        </div>
+        <div class="exp-company">Tonomy Foundation, Amsterdam</div>
+        <p class="exp-desc">Open-source infrastructuur voor zelfsoevereine digitale identiteit. MICA-conform, W3C Credentials Community Group-bijdrage (2023, 2024), eIDAS2-relevant. Privacy-by-design als uitgangspunt, niet als vinkje.</p>
+        <ul class="bullets">
+          <li>Bijgedragen aan W3C CCG Multi-Signature Verifiable Credentials standaard (did-jwt bibliotheek) &mdash; de bouwsteen voor gedecentraliseerde identiteitsverificatie in overheidscontext</li>
+          <li>Strategie, stakeholderdialoog en ecosysteemopbouw in het digitale soevereiniteitsdomein</li>
+        </ul>
+      </div>
+
+      <!-- Aeres -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Lab Manager &amp; Organisatieadviseur</span>
+          <span class="exp-period">2021 &ndash; 2022</span>
+        </div>
+        <div class="exp-company">Aeres Hogeschool, Dronten</div>
+        <ul class="bullets">
+          <li>8 afzonderlijke vakken samengevoegd tot een coherent sprint-gebaseerd innovatietrack in minder dan 2 maanden (SafeScrum); twee operationele startups als resultaat</li>
+          <li>Adviseerde directie over organisatieverandering en onderwijsvernieuwing; aanbevelingen direct geimplementeerd</li>
+          <li>Veles Farming: van "no-go" concept naar operationeel agri-tech bedrijf (ca. &euro;2M funding)</li>
+        </ul>
+      </div>
+
+      <!-- COTIT + Social Chicken -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Business Innovator &amp; Freelance Senior Adviseur</span>
+          <span class="exp-period">2016 &ndash; 2024</span>
+        </div>
+        <div class="exp-company">COTIT (Almere) &bull; Social Chicken (Amsterdam)</div>
+        <ul class="bullets">
+          <li>COTIT (2024): operationele structuur gebracht naar logistiek SaaS-bedrijf in vroege scale-up fase: processen, rollen, financiele inrichting</li>
+          <li>Technische due diligence pre-seed startup; investeringsaanbeveling; 4x exit gerealiseerd</li>
+          <li>IT-implementaties voor MKB: Linux-infrastructuur, Nagios-monitoring, CI/CD, private cloud, database-migraties</li>
+        </ul>
+      </div>
+
+      <!-- KONGSBERG -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Field Service Engineer &amp; Compliance Consultant</span>
+          <span class="exp-period">2012 &ndash; 2013</span>
+        </div>
+        <div class="exp-company">KONGSBERG, Kristiansand | Olie- en gassector (BP, Statoil)</div>
+        <p class="exp-desc">Complexe BI-deployments in safety-critical omgevingen (4 landen, geen internet, geen escalatie). Strikte procedurele compliance EN initiatief tegelijkertijd: de combinatie die in gereguleerde sectoren cruciaal is.</p>
+        <ul class="bullets">
+          <li>Azerbeidzjan: contractueel recht op data gehandhaafd tegenover subcontractor zonder formele bevoegdheid; opgelost in 24 uur</li>
+          <li>Jordanie: procedurefout buiten het handboek opgelost via dead-switch; dag 3, on schedule</li>
+        </ul>
+      </div>
+
+      <!-- WDS + Meerschap -->
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Systeembeheerder | 3rd Line Support</span>
+          <span class="exp-period">2008 &ndash; 2011</span>
+        </div>
+        <div class="exp-company">Meerschap B.V., Amsterdam &bull; WDS Global, Poole (Engeland)</div>
+        <p class="exp-desc">Nagios-monitoring geimplementeerd en twee nieuwe omzetstromen gegenereerd (Meerschap). Multi-brand telecom support; doorgegroeid naar 3e lijn binnen twee maanden (WDS).</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <div class="sidebar-block">
+      <div class="section-title">Kerncompetenties</div>
+
+      <div class="skill-group">
+        <div class="skill-label">AI-beleid &amp; AI-landschappen</div>
+        <div class="skill-tags">
+          <span class="tag highlight">AI-landschappen bouwen</span>
+          <span class="tag highlight">Governance &amp; privacy</span>
+          <span class="tag">AVG / Woo</span>
+          <span class="tag">AI-beleid</span>
+          <span class="tag">Datasoevereiniteit</span>
+          <span class="tag">eIDAS2</span>
+          <span class="tag">Auditlogging</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">ICT-architectuur &amp; Advies</div>
+        <div class="skill-tags">
+          <span class="tag highlight">Prince2</span>
+          <span class="tag highlight">ITIL</span>
+          <span class="tag">Informatiebeleid</span>
+          <span class="tag">ICT-implementatie</span>
+          <span class="tag">Stakeholdermanagement</span>
+          <span class="tag">Bestuurlijk advies</span>
+          <span class="tag">Risicomanagement</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Agile &amp; Verandermanagement</div>
+        <div class="skill-tags">
+          <span class="tag highlight">Scrum (15+ jr)</span>
+          <span class="tag">PSM I / PSPO I</span>
+          <span class="tag">SafeScrum</span>
+          <span class="tag">Kanban</span>
+          <span class="tag">Organisatieverandering</span>
+          <span class="tag">Kennisdeling</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Digitale Identiteit &amp; Compliance</div>
+        <div class="skill-tags">
+          <span class="tag highlight">SSI / W3C VCs</span>
+          <span class="tag">MICA-conform</span>
+          <span class="tag">CSRD / EUDR</span>
+          <span class="tag">Privacy-by-design</span>
+          <span class="tag">Open-source</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">AI &amp; IT Stack</div>
+        <div class="skill-tags">
+          <span class="tag">Flowise</span>
+          <span class="tag">n8n</span>
+          <span class="tag">OpenWebUI</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Nagios</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="section-title">Certificeringen</div>
+      <div class="cert-item">Prince2</div>
+      <div class="cert-item">ITIL</div>
+      <div class="cert-item">Professional Scrum Master I (PSM I)</div>
+      <div class="cert-item">Professional Scrum Product Owner I (PSPO I)</div>
+      <div class="cert-item">Oracle 11g Essentials</div>
+      <div class="cert-item">ESG &amp; Sustainable Supply Chains</div>
+      <div class="cert-item">Offshore Survival / HUET (2012)</div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="section-title">Opleiding</div>
+      <div class="edu-item">
+        <div class="edu-degree">Bachelor Business IT &amp; Management</div>
+        <div class="edu-school">Hogeschool van Amsterdam (2010&ndash;2014)</div>
+        <div class="edu-school">Eindcijfer: 8,7 | Scriptie: simulatieleren bij KONGSBERG</div>
+        <div class="edu-school">Minor: E-discovery &amp; digitale forensica (2013)</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">Lerarenopleiding Wiskunde</div>
+        <div class="edu-school">Hogeschool Inholland (2007&ndash;2008)</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">HAVO, Natuur- en Wiskunde</div>
+        <div class="edu-school">Hermann Wesselink College (2002&ndash;2006)</div>
+      </div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="section-title">Talen</div>
+      <div class="lang-item">
+        <span class="lang-name">Nederlands</span>
+        <span class="lang-level">Moedertaal</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Engels</span>
+        <span class="lang-level">Near-native (B2+)</span>
+      </div>
+      <div class="lang-item">
+        <span class="lang-name">Duits</span>
+        <span class="lang-level">Conversatieniveau</span>
+      </div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="section-title">Beschikbaarheid</div>
+      <table class="kv-table">
+        <tr><td>Locatie</td><td>Baarn (regio Utrecht/Gld)</td></tr>
+        <tr><td>Uren</td><td>28&ndash;36 uur/week</td></tr>
+        <tr><td>Hybride</td><td>Flexibel bespreekbaar</td></tr>
+        <tr><td>Start</td><td>Per direct</td></tr>
+        <tr><td>Status</td><td>NL staatsburger</td></tr>
+      </table>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
