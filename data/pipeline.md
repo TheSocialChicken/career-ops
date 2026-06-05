@@ -5,6 +5,14 @@
 | 107 | https://www.databricks.com/company/careers/professional-services-operations/sr-manager-ai-forward-deployed-engineering-fde--emea-8574912002?gh_jid=8574912002 | manual | 2026-06-05 | Sr Manager AI FDE EMEA; remote OK; score pending |
 | 108 | https://www.databricks.com/company/careers/professional-services-operations/sr-technical-program-manager-professional-services---financial-services-8208109002?gh_jid=8208109002 | manual | 2026-06-05 | Sr TPM PS Financial Services; remote OK; score pending |
 
+## Better-Fit NL Roles — 2026-06-05 Autonomous Scan
+
+- [ ] #113 | https://theexperienceoffice.nl/nl/project-manager-lend-seriousgames | The Experience Office | Project Manager L&D & Serious Games — Utrecht, 32h, €3.000/mo. Serious games + L&D + project management + facilitation. Directe archetype-1 match.
+- [ ] #114 | https://public-cinema.homerun.co/social-designer/nl | Public Cinema | Social Designer — Amsterdam, 32-40h, €3.700-€5.300/mo. Social design, facilitation, design thinking, maatschappelijke transities. WO + 5jr vereist.
+- [ ] #115 | https://berenschot.recruitee.com/o/senior-consultant-financiering-en-innovatie | Berenschot | Senior Consultant Financiering en Innovatie — Utrecht, 0.8-1.0 FTE, €5.086-€8.376/mo. Subsidieaanvragen + innovatiestrategie + stakeholdermanagement. WO technisch vereist.
+- [ ] #116 | https://berenschot.recruitee.com/o/medior-transformatie-partner | Berenschot | Medior Transformatie Partner — Utrecht, 0.8-1.0 FTE, €3.776-€6.390/mo. PMO + transformatie + Miro/Power BI. Master's vereist.
+- [ ] #117 | https://berenschot.recruitee.com/o/senior-consultant-digitale-transformatie-in-het-openbaar-bestuur | Berenschot | Senior Consultant Digitale Transformatie Openbaar Bestuur — Utrecht, 0.8-1.0 FTE, €5.086-€8.376/mo. WO + 4jr consultancy vereist.
+
 ## Pending
 
 - [x] #31 | https://jobs.ashbyhq.com/n8n/42e72645-d99a-4545-97b7-53ba3a699893 | n8n | AI Product Builder | already evaluated

@@ -408,6 +408,22 @@ search_queries:
     query: 'site:werkenvoornederland.nl "Supply Chain" OR "Keten" OR "Innovatie" OR "Onderzoeker" OR "Adviseur" Netherlands 2026'
     enabled: true
 
+  - name: ESGCarriere — Duurzaamheid Consultant NL
+    query: 'site:esgcarriere.nl "consultant" OR "adviseur" OR "manager" "CSRD" OR "EUDR" OR "supply chain" OR "keten" OR "duurzaamheid"'
+    enabled: true
+
+  - name: Duurzaam Ondernemen — Sustainability Advisor NL
+    query: 'site:duurzaam-ondernemen.nl vacature "CSRD" OR "EUDR" OR "supply chain" OR "duurzaamheid" OR "adviseur" OR "consultant"'
+    enabled: true
+
+  - name: Consultancy.nl — Innovation & Transformation NL
+    query: 'site:consultancy.nl/vacatures/vakgebied/innovatie OR site:consultancy.nl/vacatures/vakgebied/organisatieadvies "facilitator" OR "programmamanager" OR "innovatieadviseur" OR "transitie" OR "serious games" OR "learning"'
+    enabled: true
+
+  - name: NL — Social Design Facilitation
+    query: '"social designer" OR "sociaal ontwerper" OR "transitiemanager" OR "design thinking facilitator" OR "serious game facilitator" Nederland OR remote 2026'
+    enabled: true
+
   - name: NL — Fractional Part-time AI Roles
     query: '"deeltijd" OR "parttime" OR "0.6 fte" OR "0.4 fte" OR "fractional" "AI" OR "Innovatie" OR "Programmamanager" OR "Scrum Master" Netherlands OR remote'
     enabled: true
@@ -1787,4 +1803,101 @@ tracked_companies:
     scan_method: websearch
     scan_query: 'site:natuurmonumenten.nl vacatures "AI" OR "Digitaal" OR "Innovatie" OR "Programma"'
     notes: "NL nature conservation org. Added 2026-06-05."
+    enabled: true
+
+  # -- Serious games, facilitation, social design -- Added 2026-06-05
+
+  - name: The Experience Office
+    careers_url: https://www.theexperienceoffice.nl/nl/office/vacatures
+    scan_method: websearch
+    scan_query: '"The Experience Office" vacatures "serious game" OR "L&D" OR "project manager" OR "facilitator" OR "learning"'
+    notes: "Utrecht. Serious games en L&D experiences voor Bol., ProRail, Gemeente Amsterdam. Direct archetype match: Beer Game + facilitation."
+    enabled: true
+
+  - name: IJsfontein
+    careers_url: https://www.ijsfontein.nl/werk-bij-ons/
+    scan_method: websearch
+    scan_query: '"IJsfontein" vacature "serious game" OR "game designer" OR "project manager" OR "learning" OR "facilitator"'
+    notes: "Amsterdam. Serious games studio (25+ jaar). Three divisions: Kids, Interactive Spaces, Serious Gaming (Gamewise). Direct fit."
+    enabled: true
+
+  - name: Public Cinema
+    careers_url: https://public-cinema.homerun.co/
+    scan_method: websearch
+    scan_query: '"Public Cinema" vacature "social designer" OR "facilitator" OR "innovatie" OR "transitie" OR "change"'
+    notes: "Amsterdam. Social design + consultancy voor maatschappelijke impact. Energy, circular, climate. Design thinking facilitation."
+    enabled: true
+
+  - name: Gamificationers
+    careers_url: https://gamificationers.nl/vacatures/
+    scan_method: websearch
+    scan_query: 'site:gamificationers.nl vacatures "gamification" OR "game designer" OR "serious games" OR "learning"'
+    notes: "NL. Gamification consultancy. Direct serious games fit."
+    enabled: true
+
+  # -- Sustainability & circular economy consultancies -- Added 2026-06-05
+
+  - name: Metabolic
+    careers_url: https://www.metabolic.nl/vacancies/
+    scan_method: websearch
+    scan_query: '"Metabolic" vacancies "consultant" OR "project manager" OR "innovation" OR "sustainability" OR "supply chain"'
+    notes: "Amsterdam (~90 mensen). Systemic sustainability consultancy. Agrifood, circular, biodiversity. Flat hierarchy, hybrid. EUDR/CSRD overlap."
+    enabled: true
+
+  - name: Copper8
+    careers_url: https://www.copper8.com/vacatures/
+    scan_method: websearch
+    scan_query: '"Copper8" vacature consultant "circulaire economie" OR "innovatie" OR "duurzaamheid" OR "supply chain"'
+    notes: "Utrecht. Circular economy consultancy. Pioneer in circulariteit NL. Currently only intern open — monitor for senior roles."
+    enabled: true
+
+  - name: CE Delft
+    careers_url: https://ce.nl/vacatures/
+    scan_method: websearch
+    scan_query: '"CE Delft" vacature "adviseur" OR "consultant" OR "onderzoeker" "duurzaamheid" OR "klimaat" OR "energie" OR "supply chain"'
+    notes: "Delft. Independent sustainability research/consultancy. Policy + applied research. Energy transition, transport, circulaire economie."
+    enabled: true
+
+  - name: TAUW
+    careers_url: https://tauw.com/nl/vacatures/
+    scan_method: websearch
+    scan_query: '"TAUW" vacature "duurzaamheid" OR "adviseur" OR "consultant" OR "CSRD" OR "circulariteit" OR "innovatie"'
+    notes: "Deventer/NL. Engineering + sustainability advisory. Circulaire GWW, duurzaamheid, milieu. Supply chain + compliance overlap."
+    enabled: true
+
+  - name: ESGCarriere
+    careers_url: https://www.esgcarriere.nl/
+    scan_method: websearch
+    scan_query: 'site:esgcarriere.nl "consultant" OR "adviseur" OR "manager" OR "project" "CSRD" OR "EUDR" OR "supply chain" OR "duurzaamheid" Nederland'
+    notes: "NL specialist job board for ESG/sustainability roles. Key board voor CSRD/EUDR consultant vacatures."
+    enabled: true
+
+  # -- Management & innovation consultancies -- Added 2026-06-05
+
+  - name: Berenschot
+    careers_url: https://berenschot.recruitee.com/
+    scan_method: websearch
+    scan_query: '"Berenschot" vacature "consultant" OR "adviseur" "innovatie" OR "digitale transformatie" OR "veranderkundig" OR "subsidie" OR "organisatieontwerp"'
+    notes: "Utrecht. Dutch management consultancy (85+ jaar). Financiering & Innovatie, digitale transformatie overheid, transformatie partner. HBO/WO level."
+    enabled: true
+
+  - name: Twynstra Gudde
+    careers_url: https://twynstragudde.recruitee.com/
+    scan_method: websearch
+    scan_query: '"Twynstra Gudde" vacature "adviseur" OR "consultant" OR "programmamanager" "innovatie" OR "digitale transformatie" OR "verandermanagement" OR "onderwijs"'
+    notes: "Amersfoort (dichtbij Baarn!). NL management consultancy. Public sector, innovatie, onderwijs, veranderkundige advies."
+    enabled: true
+
+  - name: KplusV
+    careers_url: https://www.werkenbijkplusv.nl/
+    scan_method: websearch
+    scan_query: '"KplusV" vacature "consultant" OR "adviseur" "innovatie" OR "startup" OR "scale-up" OR "ondernemen" OR "ecosysteem"'
+    notes: "Arnhem/Amsterdam. Innovation consultancy for startups, scale-ups, and ecosystems. Grant/subsidy advisory. Startup & Scale-up Consultant rol is recurring."
+    enabled: true
+
+  - name: ICTU
+    careers_url: https://www.ictu.nl/werken-bij-voor/
+    scan_method: websearch
+    scan_query: 'site:ictu.nl "programmamanager" OR "projectmanager" OR "adviseur" OR "agile" "innovatie" OR "digitalisering" OR "overheid"'
+    notes: "Den Haag. Government digital innovation org. Programmamanager, projectmanager, digitalisering overheid. Public sector digital transformation."
     enabled: true
