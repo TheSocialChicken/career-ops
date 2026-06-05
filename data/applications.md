@@ -9,9 +9,9 @@
 | 101 | 2026-06-05 | Celonis | Client Value Partner, Retail | 3.2/5 | Evaluated | ❌ | [101](reports/087-celonis-cvp-retail-2026-06-05.md) | 3.2/5 — Munich location + 15yr/MBA + Celonis platform gap |
 | 100 | 2026-06-05 | Mollie | Senior PDM, Wallet & Bank Interactions | 3.1/5 | Evaluated | ❌ | [100](reports/086-mollie-sr-pdm-wallet-2026-06-05.md) | 3.1/5 — banking infrastructure + ECB connectivity gap; hard blockers |
 | 99 | 2026-06-05 | Mollie | Product Delivery Manager, Mollie Capital | 3.3/5 | Evaluated | ❌ | [99](reports/085-mollie-pdm-capital-2026-06-05.md) | 3.3/5 — credit/lending domain gap is primary blocker |
-| 98 | 2026-06-05 | Supabase | Product Manager, AI | 3.7/5 | Evaluated | ❌ | [98](reports/084-supabase-pm-ai-2026-06-05.md) | 3.7/5 — daily Supabase/MCP user; OR clause (founding exp); CL must lead with user angle |
+| 98 | 2026-06-05 | Supabase | Product Manager, AI | 3.7/5 | Evaluated | ✅ | [98](reports/084-supabase-pm-ai-2026-06-05.md) | CV + brief klaar (applications/098-supabase-pm-ai/); brief leads with MCP edge function story |
 | 97 | 2026-06-05 | Supabase | Senior Manager, Technical Program Management | 3.4/5 | Evaluated | ❌ | [97](reports/083-supabase-senior-manager-tpm-2026-06-05.md) | 3.4/5 — 10+ yr TPM + code fluency dual blockers; not recommended |
-| 96 | 2026-06-05 | KBenP | Adviseur Digitale Overheid | 3.7/5 | Evaluated | ❌ | [96](reports/082-kbenp-adviseur-digitale-overheid-2026-06-05.md) | 3.7/5 — call Sven Blom (06-43363421) re: uren flexibility; doorlopende vacature |
+| 96 | 2026-06-05 | KBenP | Adviseur Digitale Overheid | 3.7/5 | Evaluated | ✅ | [96](reports/082-kbenp-adviseur-digitale-overheid-2026-06-05.md) | CV + brief klaar (applications/096-kbenp/); bel Sven Blom 06-43363421 re: uren + nevenactiviteiten eerst |
 | 95 | 2026-06-05 | Sopra Steria | Scrum Master (Agile Consultant) | 2.7/5 | SKIP | ❌ | — | Groningen locatie; 40h FTE; user override — applying anyway |
 | 94 | 2026-06-05 | Enexis | Scrum Master | 2.9/5 | SKIP | ❌ | — | PSM II vereist; 40h vaste aanstelling; user override — applying anyway |
 | 77 | 2026-06-04 | ElevenLabs | Deployment Strategist Lead | 3.6/5 | Evaluated | ❌ | [77](reports/073-elevenlabs-deployment-strategist-lead-2026-06-04.md) | Strong forward-deployed fit (KONGSBERG); blocked by full-time travel vs. fractional model — conditional apply |
