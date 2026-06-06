@@ -349,16 +349,19 @@
 > dev), Nyenrode (postdoc + faculty only), CoachHub (Ashby remote), Wielinq (expired), PNO Innovation (expired),
 > nlmtd Innovation Lead (expired). Many serious game studios have no open non-engineering roles.
 
-- [ ] #120 | https://werkenbij.uva.nl/vacatures/onderwijsontwikkelaar-netherlands-15124 | UvA IIS | Onderwijsontwikkelaar (Inst. voor Interdisciplinaire Studies) — Amsterdam Science Park, 32h, €4,728-€6,433/mo, **DEADLINE JUNE 11 2026 — 5 DAYS, ACT NOW**
-- [ ] #121 | https://amsterdam.impacthub.net/about-us/careers/ | Impact Hub Amsterdam | Senior Venture Support Manager — Amsterdam, active listing no deadline specified
-- [ ] #122 | https://agilescrumgroup.nl/agile-scrum-vacatures/vacature-product-owner-en-innovatie-trainer-consultant/ | Agile Scrum Group | Product Owner & Innovation Trainer/Consultant — Amsterdam, market-rate + bonus, Design Thinking + Lean Startup + PO coaching. VERIFY LIVE (consultancy.nl posting Oct 2022 — may be standing vacancy)
-- [ ] #123 | https://pblq.nl/adviseur/ | PBLQ | Adviseur digitale samenleving — Den Haag, ongoing vacancy, public sector digital advisor
-- [ ] #124 | https://pblq.nl/ontwerpgerichte-adviseur/ | PBLQ | Ontwerpgerichte Adviseur (medior/senior) — Den Haag, ~5 yrs exp, design-oriented advisory for complex public sector challenges
-- [ ] #125 | https://www.werkenbijthiememeulenhoff.nl/vacaturebeschrijving/product-owner-digitale-leer-en-werkomgeving-32-36-uur | ThiemeMeulenhoff | Product Owner digitale leer- en werkomgeving — Amersfoort, 32-36h, €3,636-€6,061/mo. VERIFY LIVE (deadline listed as May 12 — may be expired)
-- [ ] #126 | https://onderwijsinnovators.nl/vacatures/ | INNOVATORS (Uitg. Instruct) | Adviseur digitale lesmethoden — Bodegraven, 32h, education advisory + relatiebeheer for schools
-- [ ] #127 | https://snappet.recruitee.com/ | Snappet | Schooladviseur — Utrecht, hybrid, sales dept, helping schools implement Snappet adaptive practice platform
-- [ ] #128 | https://snappet.recruitee.com/ | Snappet | Trainer / Leerkrachtcoach — Utrecht, hybrid, training teachers to use Snappet
-- [ ] #129 | https://werkenbij.surf.nl/vacatures/relatiemanager-research/ | SURF | Relatiemanager Research+ — Utrecht, 32-40h, €5,450-€7,786/mo, **DEADLINE JUNE 7 2026 — TOMORROW, ACT NOW**
-- [ ] #130 | https://werkenbij.provincie-utrecht.nl/vacature-bdo/implementatiemanager-trambedrijf | Provincie Utrecht | Implementatiemanager Trambedrijf — Nieuwegein, 6-month fixed term, €3,791-€5,340/mo, **DEADLINE JUNE 11 2026 — 5 DAYS**, organizational transition PM for new tram subsidiary
-- [ ] #131 | https://strictbv.recruitee.com/o/senior-consultant-digitale-transformatie-regie | Strict B.V. | (Senior) Consultant Digitale Transformatie & Regie — Vianen (Utrecht area), 32-40h, €5,000-€7,000/mo, digital transformation + IT governance for clients, CONFIRMED LIVE
-- [ ] #132 | https://www.erac.nl/vacature/programmamanager-europese-projecten/ | ERAC | Programmamanager Europese Projecten — Eindhoven/Utrecht, 32-40h, market-rate, EU-funded innovation + sustainability programs, 4+ yrs EU project exp req, CONFIRMED LIVE
+- [x] #120 | https://werkenbij.uva.nl/vacatures/onderwijsontwikkelaar-netherlands-15124 | UvA IIS | Onderwijsontwikkelaar — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. DEADLINE JUNE 11.
+- [x] #121 | https://amsterdam.impacthub.net/about-us/careers/ | Impact Hub Amsterdam | Senior Venture Support Manager — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO if full-time.
+- [x] #122 | https://agilescrumgroup.nl/agile-scrum-vacatures/vacature-product-owner-en-innovatie-trainer-consultant/ | Agile Scrum Group | PO & Innovatie Trainer — Rapport klaar 2026-06-06. VERIFY liveness (Oct 2022 posting). 3.2/5.
+- [x] #123 | https://pblq.nl/adviseur/ | PBLQ | Adviseur digitale samenleving — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO. 3.7/5.
+- [x] #124 | https://pblq.nl/ontwerpgerichte-adviseur/ | PBLQ | Ontwerpgerichte Adviseur — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO. 3.6/5.
+- [x] #125 | https://www.werkenbijthiememeulenhoff.nl/vacaturebeschrijving/product-owner-digitale-leer-en-werkomgeving-32-36-uur | ThiemeMeulenhoff | Product Owner digitale leer- en werkomgeving — Discarded. Deadline May 12 expired. 2.8/5.
+- [x] DEAD | https://onderwijsinnovators.nl/vacatures/adviseur-digitale-lesmethoden-uitgeverij-instruct/ | INNOVATORS | Adviseur digitale lesmethoden — deadline Nov 2024, EXPIRED
+- [x] #126 | https://onderwijsinnovators.nl/vacatures/ontwikkelaar-lesmateriaal-digitale-vaardigheden-en-ai/ | INNOVATORS | Ontwikkelaar Digitale Vaardigheden & AI — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO freelance. 3.2/5.
+- [x] SKIP | https://onderwijsinnovators.nl/vacatures/ontwikkelaar-lesmateriaal-digitale-vaardigheden-en-outlook/ | INNOVATORS | Ontwikkelaar Office (Outlook/Word/Excel) — Bodegraven, freelance, too specialist in wrong direction
+- [x] SKIP | https://onderwijsinnovators.nl/vacatures/senior-ict-engineer-do-it-automatisering/ | DO-IT Automatisering | Senior ICT Engineer — sysadmin, Didam, pure IT infrastructure role
+- [x] #127 | https://snappet.recruitee.com/o/schooladviseur-1 | Snappet | Schooladviseur — Rapport klaar 2026-06-06. NO-GO. 3.0/5. Sales/CS rol, niet archetype-fit.
+- [x] SKIP | https://snappet.recruitee.com/o/junior-trainer-leerkrachtcoach | Snappet | Trainer/Leerkrachtcoach — requires 1-3yr basisschool teaching exp, hard gap
+- [x] #129 | https://werkenbij.surf.nl/vacatures/relatiemanager-research/ | SURF | Relatiemanager Research+ — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. DEADLINE JUNE 7. 4.0/5.
+- [x] #130 | https://werkenbij.provincie-utrecht.nl/vacature-bdo/implementatiemanager-trambedrijf | Provincie Utrecht | Implementatiemanager Trambedrijf — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. DEADLINE JUNE 11. 3.3/5.
+- [x] #131 | https://strictbv.recruitee.com/o/senior-consultant-digitale-transformatie-regie | Strict B.V. | (Senior) Consultant Digitale Transformatie & Regie — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO. 3.7/5.
+- [x] #132 | https://www.erac.nl/vacature/programmamanager-europese-projecten/ | ERAC | Programmamanager Europese Projecten — Dossier klaar: CV + brief + rapport + PDFs 2026-06-06. GO with caveat. 3.6/5.

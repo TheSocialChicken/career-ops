@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Christiaan Verhoef -- CV -- UvA IIS Onderwijsontwikkelaar</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.65;
+    color: #1a1a2e;
+    background: #ffffff;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 18mm 18mm 16mm 18mm;
+    display: grid;
+    grid-template-columns: 1fr 68mm;
+    grid-template-rows: auto 1fr;
+    gap: 0 10mm;
+  }
+  .header {
+    grid-column: 1 / -1;
+    margin-bottom: 10px;
+  }
+  .header-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+  .header-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(187, 74%, 32%);
+    margin-top: 3px;
+    letter-spacing: 0.01em;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin: 8px 0 6px;
+  }
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 9.5px;
+    color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .main { grid-column: 1; }
+  .sidebar { grid-column: 2; }
+  .section { margin-bottom: 13px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1px solid hsl(187, 74%, 85%);
+    padding-bottom: 2px;
+    margin-bottom: 7px;
+  }
+  .exp-item { margin-bottom: 10px; }
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  .exp-role {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+  .exp-period {
+    font-size: 10px;
+    color: #888;
+    white-space: nowrap;
+  }
+  .exp-company {
+    font-size: 10px;
+    color: hsl(187, 74%, 32%);
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  .exp-desc {
+    font-size: 10.5px;
+    color: #333;
+    margin-bottom: 3px;
+  }
+  ul.bullets {
+    padding-left: 11px;
+    margin-top: 2px;
+  }
+  ul.bullets li {
+    font-size: 10.5px;
+    color: #333;
+    margin-bottom: 2px;
+    line-height: 1.55;
+  }
+  .sidebar-block { margin-bottom: 12px; }
+  .sidebar-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1px solid hsl(187, 74%, 85%);
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+  }
+  .skill-item {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 3px;
+    line-height: 1.45;
+  }
+  .skill-cat {
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+  .cert-item {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  .lang-item {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  .impact-box {
+    background: hsl(187, 74%, 96%);
+    border-left: 3px solid hsl(187, 74%, 32%);
+    padding: 7px 9px;
+    border-radius: 0 4px 4px 0;
+    margin-bottom: 13px;
+  }
+  .impact-box p {
+    font-size: 10px;
+    color: #1a1a2e;
+    margin-bottom: 3px;
+    line-height: 1.5;
+  }
+  .impact-box p:last-child { margin-bottom: 0; }
+  .url-link { color: hsl(187, 74%, 32%); font-size: 9px; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="page">
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-name">Christiaan Verhoef</div>
+    <div class="header-title">Onderwijsontwikkelaar voor interdisciplinaire leertrajecten</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>Baarn, Nederland</span>
+      <span>+31 6 30 18 47 43</span>
+      <span><a href="mailto:christiaan_gerardo@hotmail.com">christiaan_gerardo@hotmail.com</a></span>
+      <span><a href="https://linkedin.com/in/christiaanverhoef">linkedin.com/in/christiaanverhoef</a></span>
+    </div>
+  </div>
+
+  <!-- MAIN COLUMN -->
+  <div class="main">
+
+    <!-- SUMMARY -->
+    <div class="section">
+      <div class="section-title">Profiel</div>
+      <p style="font-size:10.5px;color:#333;line-height:1.65;">
+        Ik ontwerp onderwijs dat ook werkt nadat ik de kamer heb verlaten. Achtergrond in Business IT &amp; Management (HvA, 8.7) en meer dan zes jaar hands-on onderwijsontwikkeling bij Windesheim en Aeres Hogeschool: van challenge-based leertrajecten en cross-facultaire curriculumtransformaties tot docentprofessionalisering en simulatiegebaseerd onderzoek. Ik werk op het snijvlak van pedagogische innovatie, samenwerkingsontwerp en institutionele verandering. Mijn aanpak is evidence-based: mijn afstudeerthesis (8.7) was empirisch onderzoek naar het verschil tussen simulatiegericht en procedureel leren. Die inzichten leven in elk ontwerp dat ik sindsdien heb gemaakt.
+      </p>
+    </div>
+
+    <!-- IMPACT BOX -->
+    <div class="impact-box">
+      <p>Ontwierp de transformatie van 8 losstaande vakken naar 1 sprint-based interdisciplinair innovatietrack bij Aeres Hogeschool. Resultaat: twee operationele studentstartups, waarvan een nu een agri-tech bedrijf is met €2M financiering.</p>
+      <p>Beer Game simulatie actief als curriculumonderdeel bij UvA, WUR, ROC Midden Nederland en Windesheim tegelijk. Co-creatie met docentteams bij elke instelling, niet via een centraal contract maar via relaties.</p>
+      <p>Empirisch onderzoek naar simulatiegericht leren (KONGSBERG-thesis, 8.7) als basis voor alle latere leerdesign-beslissingen. Uitgangspunt: onderwijs dat alleen succes-scenario's toont, leidt niet tot competente professionals.</p>
+    </div>
+
+    <!-- WERKERVARING -->
+    <div class="section">
+      <div class="section-title">Werkervaring</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Onderwijsontwikkelaar &amp; Projectmanager — Lectoraat</span>
+          <span class="exp-period">2020 – heden</span>
+        </div>
+        <div class="exp-company">Windesheim Hogeschool, Zwolle</div>
+        <div class="exp-desc">Ontwerp en implementatie van interdisciplinaire leertrajecten voor studenten en onderzoekers. Docentbegeleiding, co-creatie met externe partners, en evidence-based evaluatie van leereffecten.</div>
+        <ul class="bullets">
+          <li><strong>Beer Game simulatie</strong> — Herontwerp van klassieke supply chain-simulatie als challenge-based leerervaring. Ingezet als curriculumonderdeel bij UvA, WUR, ROC en Windesheim tegelijk via co-creatie met docentteams. <a class="url-link" href="https://demonstrator.valuechainhackers.xyz">demonstrator.valuechainhackers.xyz</a></li>
+          <li><strong>COVID-19 Megaproject</strong> — Coördineerde interdisciplinair onderzoeks- en onderwijsprogramma over 8 vakgroepen in 5 faculteiten. Helicopter view over parallelle leerlijnen; één coherente publicatie als gezamenlijke output.</li>
+          <li><strong>Value Chain Hackers</strong> — Opgebouwd als cross-Europees challenge-based lab: studenten als onderzoekscapaciteit, corporates en NGO's als opdrachtgevers, gemeenschappelijke AI-infrastructuur als gereedschap. <a class="url-link" href="https://valuechainhackers.xyz">valuechainhackers.xyz</a></li>
+          <li><strong>AI-leeromgeving</strong> — Zelf gefinancierd open-source AI-stack gebouwd voor studenten en onderzoekers (Flowise, OpenWebUI, n8n). Onboarding en docentondersteuning voor verantwoord AI-gebruik in leercontexten.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Lab Manager Innovatie Onderwijs</span>
+          <span class="exp-period">2021 – 2022</span>
+        </div>
+        <div class="exp-company">Aeres Hogeschool, Dronten</div>
+        <div class="exp-desc">Ontwierp en leidde een instellingsbrede curriculumtransformatie voor de agrarische HBO-opleiding. Nauw samengewerkt met schoolleiding, vakgroepen en externe (bedrijfs)partners.</div>
+        <ul class="bullets">
+          <li><strong>SafeScrum curriculumtransformatie</strong> — 8 losstaande vakken samengevoegd tot 1 sprint-based interdisciplinaire innovatietrack. Studenten werkten aan echte opdrachten van externe partners in plaats van hypothetische casussen.</li>
+          <li><strong>Docentprofessionalisering</strong> — Gefaciliteerde workshops, methodologische begeleiding en identiteitsbegeleiding voor docenten in overgang van expert naar coach. Drie ambassadeurs geworven die het model nu zelfstandig overdragen.</li>
+          <li><strong>Resultaat</strong> — Twee operationele studentstartups, waarvan Veles Farming nu €2M financiering heeft aangetrokken. <a class="url-link" href="https://velesfarming.com">velesfarming.com</a></li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Gastdocent &amp; Cursusontwerper</span>
+          <span class="exp-period">2021 – 2022</span>
+        </div>
+        <div class="exp-company">Hogeschool Inholland, Nederland</div>
+        <ul class="bullets">
+          <li>Ontwierp en gaf twee cursussen die na afloop zelfstandig zijn blijven draaien: Blockchain Minor (Build Your Own Crypto) en Dashboarding &amp; Analyse. Ontwerp gericht op exploratie en mislukken als leermethode.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Freelance Docent Agile Leren</span>
+          <span class="exp-period">2018 – 2020</span>
+        </div>
+        <div class="exp-company">ROC Midden Nederland, Utrecht</div>
+        <ul class="bullets">
+          <li>Ontwerp van agile leeromgeving voor MBO-studenten: sprint-werkwijze, rollenspelen en cross-vak projectintegratie. Community-engaged aanpak: studenten werkten aan opdrachten van externe opdrachtgevers uit het Utrechtse MKB.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Freelance Docent</span>
+          <span class="exp-period">2018</span>
+        </div>
+        <div class="exp-company">Fluxus, Zaandam</div>
+        <ul class="bullets">
+          <li>Programmeeronderwijs voor kinderen via creatieve, game-based projecten. Doelgroep: basisschoolleeftijd, benadering: ontdekkend en spelend leren.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Head Trainer &amp; Innovator</span>
+          <span class="exp-period">2018 – 2020</span>
+        </div>
+        <div class="exp-company">The Fork (nu Open Food Chain), Amsterdam</div>
+        <ul class="bullets">
+          <li>Leidde professionele opleidingsprogramma's in digitale voedseltechnologie en innovatie voor externe deelnemers. Ontwerp en uitvoering van praktijkgerichte leertrajecten.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Afstudeeronderzoek: Training &amp; Simulation Design</span>
+          <span class="exp-period">2013</span>
+        </div>
+        <div class="exp-company">KONGSBERG, Kristiansand, Noorwegen</div>
+        <ul class="bullets">
+          <li>Empirisch onderzoek naar de effectiviteit van simulatiegebaseerd leren versus procedureel leren bij olieveld-deployments (Jordan, Oman, Azerbeidzjan, VS). Thesis beoordeeld 8.7. Kernbevinding: ingenieurs die alleen procedure-scenario's oefenden, faalden bij niet-procedurele fouten in het veld. Simulatie met realistische mislukkingen leidt tot competente professionals.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Freelance Senior Projectmanager</span>
+          <span class="exp-period">2016 – 2022</span>
+        </div>
+        <div class="exp-company">Social Chicken, Amsterdam</div>
+        <ul class="bullets">
+          <li>Projectmanagement en (IT-)advies voor MKB-klanten. Blockchain consultancy, cloud- en BI-projecten, technische due diligence voor vier succesvolle exits.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Mede-oprichter &amp; Bestuurslid</span>
+          <span class="exp-period">2021 – heden</span>
+        </div>
+        <div class="exp-company">Tonomy Foundation, Amsterdam</div>
+        <ul class="bullets">
+          <li>Open-source digitale identiteitsinfrastructuur. Bijgedragen aan team dat presenteerde bij W3C Credentials Community Group (2023, 2024). Ecosysteemopbouw, community management, regulatoire positionering.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">System Manager</span>
+          <span class="exp-period">2010 – 2011</span>
+        </div>
+        <div class="exp-company">Meerschap B.V., Amsterdam</div>
+        <ul class="bullets">
+          <li>Monitoring en IT-beheer; twee nieuwe klantcontracten binnengehaald via eigen initiatief bij ziekenhuisinstallaties.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Technical Support Engineer (3e lijn)</span>
+          <span class="exp-period">2008 – 2009</span>
+        </div>
+        <div class="exp-company">WDS Global, Poole, Engeland</div>
+        <ul class="bullets">
+          <li>Multi-brand telecomsupport; in drie maanden informeel leider van het Nederlandse team.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Assistent Algemeen Manager</span>
+          <span class="exp-period">2004 – 2018</span>
+        </div>
+        <div class="exp-company">V.O.F. Verhoef, Amsterdam (Albert Cuyp)</div>
+        <ul class="bullets">
+          <li>Familiebedrijf op de Albert Cuypmarkt; fundament voor verantwoordelijkheid nemen en presteren onder druk.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <div class="sidebar-block">
+      <div class="sidebar-label">Opleiding</div>
+      <div class="skill-item"><span class="skill-cat">Bachelor BIM</span> — Hogeschool van Amsterdam, 2010–2014. Cijfer 8.7. Afstudeeronderzoek: simulatiegericht leren bij KONGSBERG. Minor: E-discovery (digitale forensics, EDRM).</div>
+      <div class="skill-item"><span class="skill-cat">Lerarenopleiding Wiskunde</span> — Hogeschool Inholland, 2007–2008</div>
+      <div class="skill-item"><span class="skill-cat">Technische Informatica</span> — HvA, 2006–2007</div>
+      <div class="skill-item"><span class="skill-cat">HAVO</span> — Hermann Wesselink College, 2002–2006</div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="sidebar-label">Certificeringen</div>
+      <div class="cert-item">Scrum Master</div>
+      <div class="cert-item">PSPO I (Professional Scrum PO)</div>
+      <div class="cert-item">Prince2</div>
+      <div class="cert-item">Train the Trainer (Blockchain)</div>
+      <div class="cert-item">ITIL</div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="sidebar-label">Onderwijsvaardigheden</div>
+      <div class="skill-item"><span class="skill-cat">Curriculumontwerp</span> — challenge-based, project-based, community-engaged learning</div>
+      <div class="skill-item"><span class="skill-cat">Docentprofessionalisering</span> — workshops, coaching, identiteitsbegeleiding bij methodologische transities</div>
+      <div class="skill-item"><span class="skill-cat">Simulatieontwerp</span> — realistische scenario's inclusief mislukking als leermethode</div>
+      <div class="skill-item"><span class="skill-cat">Co-creatie</span> — stakeholder-alignment, multi-party leerprocessen, externe partnerintegratie</div>
+      <div class="skill-item"><span class="skill-cat">Evidence-based practice</span> — onderzoek naar leereffecten, impact-monitoring, publicatie</div>
+      <div class="skill-item"><span class="skill-cat">Projectcoordinatie</span> — multi-departement afstemming, Prince2, Scrum</div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="sidebar-label">Talen</div>
+      <div class="lang-item">Nederlands — Moedertaal (C2)</div>
+      <div class="lang-item">Engels — Professioneel (B2+)</div>
+      <div class="lang-item">Duits — Conversationeel</div>
+    </div>
+
+    <div class="sidebar-block">
+      <div class="sidebar-label">Projecten</div>
+      <div class="skill-item"><a class="url-link" href="https://demonstrator.valuechainhackers.xyz">Beer Game Demonstrator</a> — simulatie actief bij 4+ instellingen</div>
+      <div class="skill-item"><a class="url-link" href="https://valuechainhackers.xyz">valuechainhackers.xyz</a> — challenge-based AI supply chain lab</div>
+      <div class="skill-item"><a class="url-link" href="https://velesfarming.com">velesfarming.com</a> — studentstartup uit Aeres, nu €2M gefinancierd</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

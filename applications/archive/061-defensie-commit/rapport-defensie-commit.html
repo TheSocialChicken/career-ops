@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRIEFINGSDOCUMENT -- Defensie COMMIT -- Programmamanager Innovatie</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  :root {
+    --olive: #3d4a1e;
+    --olive-mid: #5a6e28;
+    --olive-light: #8fa04a;
+    --olive-pale: #d8e0b8;
+    --olive-bg: #f2f4ea;
+    --khaki: #b8a878;
+    --dark: #1a1e10;
+    --amber: #b87820;
+    --red: #8b2020;
+    --ink: #1a1e10;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: var(--ink);
+    background: #fff;
+  }
+  .page {
+    width: 210mm;
+    margin: 0 auto;
+    padding: 14mm 18mm 14mm 18mm;
+  }
+
+  /* ======== HEADER ======== */
+  .doc-classification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--olive-mid);
+    border-top: 2px solid var(--olive);
+    border-bottom: 1px solid var(--olive-light);
+    padding: 4px 0;
+    margin-bottom: 10px;
+  }
+  .doc-classification .stamp {
+    background: var(--olive);
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 8px;
+    letter-spacing: 0.2em;
+  }
+  .report-header-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 16px;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  .report-type {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--olive-mid);
+    margin-bottom: 3px;
+  }
+  .report-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--olive);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+  .report-org {
+    font-size: 11px;
+    color: var(--olive-mid);
+    margin-top: 3px;
+    font-weight: 500;
+  }
+  .score-badge {
+    border: 3px solid var(--olive);
+    padding: 8px 14px;
+    text-align: center;
+    min-width: 72px;
+  }
+  .score-badge .score-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--olive);
+    line-height: 1;
+  }
+  .score-badge .score-denom {
+    font-size: 12px;
+    color: var(--olive-mid);
+    font-weight: 400;
+  }
+  .score-badge .score-label {
+    font-size: 7.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--olive-mid);
+    margin-top: 2px;
+  }
+
+  /* ======== DIVIDER ======== */
+  .rule-heavy {
+    border: none;
+    border-top: 3px solid var(--olive);
+    margin: 8px 0;
+  }
+  .rule-light {
+    border: none;
+    border-top: 1px solid var(--olive-light);
+    margin: 10px 0 8px;
+  }
+
+  /* ======== META GRID ======== */
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid var(--olive);
+    margin-bottom: 12px;
+    font-size: 9.5px;
+  }
+  .meta-cell {
+    padding: 5px 8px;
+    border-right: 1px solid var(--olive-light);
+    border-bottom: 1px solid var(--olive-light);
+  }
+  .meta-cell:nth-child(4n) { border-right: none; }
+  .meta-cell:nth-last-child(-n+4) { border-bottom: none; }
+  .meta-cell .mk { font-size: 7.5px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--olive-mid); display: block; margin-bottom: 1px; }
+  .meta-cell .mv { font-weight: 600; color: var(--ink); }
+  .meta-cell.urgent .mv { color: var(--red); font-weight: 700; }
+
+  /* ======== SECTIONS ======== */
+  .section { margin-bottom: 14px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: #fff;
+    background: var(--olive);
+    padding: 3px 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-title .sec-num {
+    opacity: 0.6;
+    font-weight: 400;
+  }
+
+  /* ======== TABLES ======== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+    margin-bottom: 6px;
+    border: 1px solid var(--olive-light);
+  }
+  th {
+    background: var(--olive-bg);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--olive);
+    padding: 4px 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--olive-light);
+  }
+  td {
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--olive-pale);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  td.field { font-weight: 600; color: var(--olive); width: 26%; }
+
+  .match-strong { color: #1a6e1a; font-weight: 700; }
+  .match-solid  { color: #3a6e0a; font-weight: 600; }
+  .match-gap    { color: var(--amber); font-weight: 600; }
+  .match-risk   { color: var(--red); font-weight: 700; }
+
+  /* ======== SCORE BARS ======== */
+  .score-rows { display: flex; flex-direction: column; gap: 5px; }
+  .srow { display: flex; align-items: center; gap: 8px; font-size: 10px; }
+  .srow .dim { width: 170px; color: var(--ink); }
+  .srow .bar-bg { flex: 1; height: 7px; background: var(--olive-pale); border: 1px solid var(--olive-light); }
+  .srow .bar-fill { height: 100%; background: var(--olive); }
+  .srow .bar-fill.warn { background: var(--amber); }
+  .srow .val { width: 28px; text-align: right; font-weight: 700; color: var(--olive); font-family: 'Space Grotesk', monospace; }
+
+  /* ======== INTEL BOX ======== */
+  .intel-box {
+    border: 1px solid var(--olive);
+    border-left: 4px solid var(--olive);
+    background: var(--olive-bg);
+    padding: 8px 10px;
+    margin: 8px 0;
+    font-size: 10.5px;
+    line-height: 1.65;
+  }
+  .intel-box .intel-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--olive-mid);
+    margin-bottom: 4px;
+  }
+  .warn-box {
+    border: 1px solid var(--amber);
+    border-left: 4px solid var(--amber);
+    background: #fdf6e8;
+    padding: 8px 10px;
+    margin: 8px 0;
+    font-size: 10.5px;
+    line-height: 1.65;
+  }
+  .warn-box .warn-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--amber);
+    margin-bottom: 4px;
+  }
+
+  /* ======== BULLETS ======== */
+  ul.field-list { list-style: none; padding: 0; margin: 4px 0; }
+  ul.field-list li {
+    font-size: 10.5px;
+    line-height: 1.65;
+    padding-left: 12px;
+    position: relative;
+    margin-bottom: 2px;
+    color: var(--ink);
+  }
+  ul.field-list li::before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    color: var(--olive-mid);
+    font-weight: 700;
+    font-size: 9px;
+    top: 1px;
+  }
+
+  /* ======== TWO COL ======== */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .col-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 2px 6px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  .col-label.go { background: var(--olive); color: #fff; }
+  .col-label.warn { background: var(--amber); color: #fff; }
+
+  /* ======== VERDICT ======== */
+  .verdict-box {
+    border: 2px solid var(--olive);
+    padding: 10px 14px;
+    margin-top: 8px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .verdict-icon {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--olive);
+    line-height: 1;
+    min-width: 50px;
+    text-align: center;
+    padding-top: 2px;
+  }
+  .verdict-text {
+    font-size: 10.5px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .verdict-text strong {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    display: block;
+    color: var(--olive);
+    margin-bottom: 3px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ======== TAGS ======== */
+  .tag-row { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .tag {
+    font-size: 8.5px;
+    padding: 2px 6px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .tag.go { background: var(--olive); color: #fff; }
+  .tag.warn { background: var(--amber); color: #fff; }
+  .tag.risk { background: var(--red); color: #fff; }
+
+  /* ======== FOOTER ======== */
+  .doc-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--olive-mid);
+    border-top: 2px solid var(--olive);
+    border-bottom: 1px solid var(--olive-light);
+    padding: 4px 0;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- TOP CLASSIFICATION BAR -->
+  <div class="doc-classification">
+    <span>Kandidaatsevaluatie | career-ops systeem</span>
+    <span class="stamp">Vertrouwelijk</span>
+    <span>Ref: DEF-2026-9184 | 2026-06-05</span>
+  </div>
+
+  <!-- HEADER -->
+  <div class="report-header-grid">
+    <div>
+      <div class="report-type">Operationeel Briefingsdocument | Sollicitatie-evaluatie</div>
+      <div class="report-title">Programmamanager Innovatie</div>
+      <div class="report-org">Ministerie van Defensie, COMMIT (Commando Materieel &amp; IT)</div>
+    </div>
+    <div class="score-badge">
+      <div class="score-num">3.8<span class="score-denom">/5</span></div>
+      <div class="score-label">Totaalscore</div>
+    </div>
+  </div>
+  <hr class="rule-heavy">
+
+  <!-- META GRID -->
+  <div class="meta-grid">
+    <div class="meta-cell"><span class="mk">Vacaturenummer</span><span class="mv">596763 / DEF-2026-9184</span></div>
+    <div class="meta-cell"><span class="mk">Schaal</span><span class="mv">14 | &euro;7.001&ndash;&euro;9.419/mnd</span></div>
+    <div class="meta-cell"><span class="mk">IKB</span><span class="mv">+16,33% (&euro;97k&ndash;&euro;131k/jr)</span></div>
+    <div class="meta-cell urgent"><span class="mk">Deadline</span><span class="mv">10 juni 2026 URGENT</span></div>
+    <div class="meta-cell"><span class="mk">Locatie</span><span class="mv">Utrecht, Kromhout Kazerne</span></div>
+    <div class="meta-cell"><span class="mk">Reistijd</span><span class="mv">Baarn &rarr; Utrecht: 25 min</span></div>
+    <div class="meta-cell"><span class="mk">Kandidaat</span><span class="mv">Christiaan Verhoef</span></div>
+    <div class="meta-cell"><span class="mk">Aanbeveling</span><span class="mv">SOLLICITEER</span></div>
+  </div>
+
+  <!-- SECTION A: SCOREVERDELING -->
+  <div class="section">
+    <div class="section-title">A. Scoreverdeling per dimensie <span class="sec-num">01</span></div>
+    <div class="score-rows">
+      <div class="srow">
+        <span class="dim">Rolfit (archetype match)</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:76%"></div></div>
+        <span class="val">3.8</span>
+      </div>
+      <div class="srow">
+        <span class="dim">CV-match kerncompetenties</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:78%"></div></div>
+        <span class="val">3.9</span>
+      </div>
+      <div class="srow">
+        <span class="dim">Compensatie-fit</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:96%"></div></div>
+        <span class="val">4.8</span>
+      </div>
+      <div class="srow">
+        <span class="dim">Culturele fit (defensie/overheid)</span>
+        <div class="bar-bg"><div class="bar-fill" style="width:72%"></div></div>
+        <span class="val">3.6</span>
+      </div>
+      <div class="srow">
+        <span class="dim">Screeningsrisico (WO-eis)</span>
+        <div class="bar-bg"><div class="bar-fill warn" style="width:52%"></div></div>
+        <span class="val" style="color:var(--amber)">2.6</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION B: CV MATCH -->
+  <div class="section">
+    <div class="section-title">B. CV-match per JD-eis <span class="sec-num">02</span></div>
+    <table>
+      <tr><th style="width:27%">JD-eis</th><th style="width:48%">Bewijs in portfolio</th><th style="width:25%">Oordeel</th></tr>
+      <tr>
+        <td class="field">Complexe tech. programma's (min. 6 jr)</td>
+        <td>KONGSBERG velddeployments 4 landen (2012&ndash;2013); Windesheim lectoraat (2020&ndash;heden); VCH cross-Europees</td>
+        <td class="match-strong">STERK</td>
+      </tr>
+      <tr>
+        <td class="field">Safety-critical / gereguleerde omgeving</td>
+        <td>KONGSBERG olie &amp; gas: geen internet, geen escalatie, strikte procedure-naleving; MICA-compliant blockchain infra (Tonomy)</td>
+        <td class="match-strong">STERK (zeldzaam)</td>
+      </tr>
+      <tr>
+        <td class="field">Stakeholdermanagement &amp; onderhandeling</td>
+        <td>Azerbaijan: contract geciteerd bij subcontractor-directeur; Tonomy ecosysteem; Europese partners VCH; lectoraatsdirectie</td>
+        <td class="match-strong">STERK</td>
+      </tr>
+      <tr>
+        <td class="field">Agile + Systems Engineering</td>
+        <td>SafeScrum schoolbreed, PSM I, PSPO I, 15+ jaar agile; DevOps lifecycle volledige stack</td>
+        <td class="match-solid">GOED</td>
+      </tr>
+      <tr>
+        <td class="field">Financieel programmabestuur</td>
+        <td>Co-auteur granttrajecten; ca. &euro;2M gefaciliteerd; budgetbeheer universiteitsprojecten; COTIT herstructurering</td>
+        <td class="match-solid">SOLID</td>
+      </tr>
+      <tr>
+        <td class="field">Prince2 / MSP / IPMA</td>
+        <td>Prince2 gecertificeerd; ITIL; MSP afwezig maar niet vereist als minimumeis</td>
+        <td class="match-solid">GOED</td>
+      </tr>
+      <tr>
+        <td class="field">WO-niveau</td>
+        <td>HBO BIM HvA, eindcijfer 8,7; scriptie beoordeeld op academisch niveau; EVC-equivalent via portfolio</td>
+        <td class="match-gap">RISICO (formeel)</td>
+      </tr>
+      <tr>
+        <td class="field">Digitale soevereiniteit / cryptografie</td>
+        <td>Tonomy Foundation: co-oprichter van MICA-conforme, cryptografisch beveiligde infrastructuur voor zelfsoevereine digitale identiteit (privacy-by-design, W3C-erkend, eIDAS2-relevant); Pangea Vault identity vault</td>
+        <td class="match-strong">STERK (uniek)</td>
+      </tr>
+      <tr>
+        <td class="field">Forensisch onderzoek / inlichtingenanalyse</td>
+        <td>ESIEA Laval 2012: leider internationaal team; EDRM-framework; geopolitieke risicoanalyse gevoelige datasets; bevindingen formeel erkend; presentatie internationaal forensisch forum</td>
+        <td class="match-strong">STERK (zeldzaam)</td>
+      </tr>
+      <tr>
+        <td class="field">Veiligheidsmachtiging</td>
+        <td>NL staatsburger; machtiging aanvraagbaar</td>
+        <td class="match-solid">GEEN BLOCKER</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- SECTION C: KERNARGUMENT -->
+  <div class="section">
+    <div class="section-title">C. Kernonderscheidend argument (intelligence assessment) <span class="sec-num">03</span></div>
+
+    <div class="intel-box">
+      <div class="intel-label">Inlichtingenanalyse: onderscheidend profiel</div>
+      Christiaan Verhoef is een van de weinige programmamanagement-kandidaten op de Nederlandse arbeidsmarkt met aantoonbare, directe ervaring in safety-critical operationele omgevingen: geen internet, geen escalatiemogelijkheid, volledige eindverantwoordelijkheid ter plaatse. Dit is geen simulatie of projectervaring in een gecentraliseerde kantooromgeving. Dit zijn velddeployments in de olie- en gassector voor BP en Statoil, waarbij hij als enige persoon op het veld elke component van de deployment beheerste. De combinatie van procedurele precisie en zelfstandig probleemoplossend vermogen is een directe match met wat COMMIT in een senior programmamanager zoekt.
+    </div>
+
+    <ul class="field-list">
+      <li><strong>Tonomy Foundation (2021&ndash;heden):</strong> Co-oprichter van open-source, cryptografisch beveiligde infrastructuur voor zelfsoevereine digitale identiteit. Architectuur MICA-conform, W3C-erkend, privacy-by-design. Kernprincipe: burgers beheren eigen identiteitsdata zonder afhankelijkheid van centrale partijen. Directe relevantie voor Defensie: digitale soevereiniteit, bescherming staatsinfrastructuur, veilige identiteitsverificatie buiten commerciele platformen.</li>
+      <li><strong>ESIEA Laval, Frankrijk (2012):</strong> Leider van internationaal team in digitaal forensisch onderzoek via het EDRM-framework (Electronic Discovery Reference Model). Geopolitieke risicoanalyse van gevoelige datasets. Bevindingen formeel erkend door de instelling; uitgenodigd voor presentatie op internationaal forensisch forum. Directe relevantie voor Defensie: inlichtingenanalyse, omgaan met vertrouwelijke informatie, internationaal operationeel onderzoek.</li>
+      <li><strong>BP Jordanie:</strong> Database faalde na correcte procedure-uitvoering. Dead-switch ingezet om client-side netwerk fout te isoleren en te bewijzen bij de lokale beheerder. Dag 3, on schedule. Geen instructie gevraagd of beschikbaar.</li>
+      <li><strong>BP Azerbeidzjan:</strong> Subcontractor (GeoServices) weigerde gecontracteerde data te leveren. BP-contract bestudeerd, specifieke clausules geciteerd bij divisiehoofd. Data gedeeld binnen 24 uur. Geen formele autoriteit, geen senior backup. Alleen het contract en de bereidheid het te gebruiken.</li>
+      <li><strong>Windesheim / Value Chain Hackers (2024&ndash;heden):</strong> Cross-Europese AI-compliancetooling voor CSRD, EUDR, CSDDD opgebouwd van nul. Eigenhandig de volledige stack gebouwd (Flowise, n8n, Supabase, Docker, CI/CD), Europese partnernetwerken geactiveerd, multi-stakeholder governance ingericht. Vertegenwoordigt het lectoraat richting overheidspartners en Europese kennisinstellingen. Grantco-auteur. Dit is niet "bijgedragen aan" &mdash; dit is vanaf nul gebouwd en operationeel gehouden.</li>
+      <li><strong>Windesheim / Spark! Living Lab (2020&ndash;2023):</strong> Tweede volledig zelfgebouwd lab: blockchain-simulaties voor internationale supply chains, Beer Game-demonstrator live, externe bedrijfspartners, meerdere cohorten professionals en studenten getraind. DevOps-omgeving volledig zelfbeheerd. Bewijs: twee labs vanuit nul, beide operationeel.</li>
+      <li><strong>Aeres Hogeschool:</strong> 8 afzonderlijke cursussen samengevoegd tot een coherent innovatieprogramma in minder dan 2 maanden. Blijvend resultaat: twee operationele startups (waaronder Veles Farming, Slowakije, &euro;2M gefinancierd).</li>
+    </ul>
+  </div>
+
+  <!-- SECTION G: PATROONANALYSE -->
+  <div class="section">
+    <div class="section-title">G. Patroonanalyse: bewijs van fit over de loopbaan <span class="sec-num">04</span></div>
+
+    <div class="intel-box">
+      <div class="intel-label">Terugkerend patroon 1: leiderschap zonder formele autoriteit</div>
+      Vijf gedocumenteerde voorbeelden waarbij Christiaan resultaat boekte zonder titels, hiërachie, of senior backup:
+      <ul class="field-list" style="margin-top:5px">
+        <li>WDS Global (2008): informeel groepsleider Nederlandse afdeling binnen 3 maanden, zonder functiewijziging</li>
+        <li>BP Azerbeidzjan (2012): contractuele positie gehouden tegenover subcontractor-directeur; data geleverd binnen 24 uur</li>
+        <li>ESIEA Laval (2012): internationaal team geleid in forensisch onderzoek als student/jr. onderzoeker</li>
+        <li>Aeres Hogeschool (2021): 8 cursuseigenaren en roosters samengevoegd zonder directiemandaat in minder dan 2 maanden</li>
+        <li>Airsoft (heden): tactisch commandant in gesimuleerde veldsituaties; coördineert teams van 10+ onder tijdsdruk en contact</li>
+      </ul>
+    </div>
+
+    <div class="intel-box" style="margin-top:8px">
+      <div class="intel-label">Terugkerend patroon 2: innovatieprogramma's van nul naar operationeel</div>
+      Vier onafhankelijk aantoonbare cases van programma's die hij volledig heeft opgebouwd:
+      <ul class="field-list" style="margin-top:5px">
+        <li>Spark! Living Lab (Windesheim, 2020): blockchain-simulatielab van concept tot live demonstrator, DevOps volledig zelfbeheerd</li>
+        <li>Value Chain Hackers (Windesheim, 2024): cross-Europees AI-complianceprogramma, stack vanuit nul, Europese partnernetwerken, operationele demonstrator live</li>
+        <li>Aeres innovatietrack (2021): 8 vakken tot 1 coherent track; twee operationele startups als uitkomst</li>
+        <li>Tonomy Foundation (2021): open-source cryptografische identiteitsinfrastructuur vanuit nul, MICA-conform, W3C-erkend</li>
+      </ul>
+    </div>
+
+    <div class="intel-box" style="margin-top:8px">
+      <div class="intel-label">Terugkerend patroon 3: procedure + initiatief simultaan (niet afwisselend)</div>
+      COMMIT zoekt iemand die strikte nalevingscultuur begrijpt én proactief opereert. Dit is doorgaans een of-of. Bij Christiaan is het en-en:
+      <ul class="field-list" style="margin-top:5px">
+        <li>KONGSBERG: alle procedures exact gevolgd; gelijktijdig dead-switch ingezet, contract geciteerd, transfer geregeld zonder toestemming af te wachten</li>
+        <li>ESIEA: forensisch EDRM-framework strikt toegepast; gelijktijdig gevoelige geopolitieke risicoanalyse uitgevoerd en formeel erkend</li>
+        <li>Minor E-discovery (HvA, 2013): academisch kader voor digitale forensica; ESIEA-praktijk als directe vertaling</li>
+        <li>Tonomy: cryptografisch protocol gevolgd (MICA, W3C, eIDAS2); gelijktijdig strategisch ecosysteem opgebouwd dat de wet als fundament gebruikt</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION D: RISICO EN MITIGATIE -->
+  <div class="section">
+    <div class="section-title">D. Risico's &amp; mitigatie <span class="sec-num">05</span></div>
+
+    <div class="warn-box">
+      <div class="warn-label">Primair risico: WO-eis</div>
+      De JD stelt WO-niveau als eis. Kandidaat heeft HBO, afgerond met eindcijfer 8,7. De scriptie is geschreven voor een industriele opdrachtgever (KONGSBERG) en beoordeeld op academisch niveau. Mitigatie: EVC-procedure beschikbaar bij rijksoverheid; portfolio toont aantoonbaar WO-denk- en werkniveau. Strategie: direct en zelfverzekerd adresseren in de motivatiebrief, met concrete verwijzing naar het portfolio.
+    </div>
+
+    <div class="two-col">
+      <div>
+        <span class="col-label go">Sterktes (GROEN)</span>
+        <ul class="field-list">
+          <li>Unieke safety-critical veldervaring (KONGSBERG)</li>
+          <li>Prince2 gecertificeerd</li>
+          <li>Cross-organisatorisch stakeholdermanagement aangetoond op directieniveau</li>
+          <li>Technische diepgang zeldzaam bij PM-profiel</li>
+          <li>NL staatsburger (veiligheidsmachtiging aanvraagbaar)</li>
+          <li>Comp ver boven target (schaal 14)</li>
+        </ul>
+      </div>
+      <div>
+        <span class="col-label warn">Risico's (ORANJE)</span>
+        <ul class="field-list">
+          <li>WO-eis: HBO vs gevraagd WO</li>
+          <li>Geen Defensie-specifieke domeinervaring</li>
+          <li>MSP-certificering afwezig</li>
+          <li>Geen track record grote defensiebudgetten</li>
+          <li>Full-time 38u vs fractional voorkeur</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION E: COMP -->
+  <div class="section">
+    <div class="section-title">E. Compensatieanalyse <span class="sec-num">06</span></div>
+    <table>
+      <tr><th>Metriek</th><th>Data</th></tr>
+      <tr><td class="field">Aangeboden (bruto/mnd)</td><td>&euro;7.001&ndash;&euro;9.419 (schaal 14, 38 uur)</td></tr>
+      <tr><td class="field">Incl. IKB 16,33%</td><td>&euro;8.145&ndash;&euro;10.956 bruto/mnd equivalent</td></tr>
+      <tr><td class="field">Jaarequivalent</td><td>Ca. &euro;97.740&ndash;&euro;131.472 bruto</td></tr>
+      <tr><td class="field">Kandidaat target</td><td>&euro;65k&ndash;&euro;90k (harde ondergrens &euro;55k)</td></tr>
+      <tr><td class="field">Oordeel</td><td><strong>Ruim boven target. Schaal 14 midden-top (~&euro;115k) realistisch voor dit profiel.</strong></td></tr>
+    </table>
+  </div>
+
+  <!-- SECTION F: VERDICT -->
+  <div class="section">
+    <div class="section-title">F. Operationeel advies (aanbeveling) <span class="sec-num">07</span></div>
+    <div class="verdict-box">
+      <div class="verdict-icon">GO</div>
+      <div class="verdict-text">
+        <strong>SOLLICITEER. Score 3.8/5.</strong>
+        De inhoudelijke match is aanzienlijk sterker dan het totaalcijfer doet vermoeden. Rolfit (3.8) en CV-match op kerncompetenties (3.9) liggen beide boven de aanbevelingsdrempel. Het verlaagde totaalcijfer reflecteert uitsluitend het formele screeningsrisico van de WO-eis; het heeft niets te maken met vermogen, portefeuille of leiderschapskwaliteit. Christiaan is een zeldzame combinatie: iemand die procedure-compliance in safety-critical veldoperaties aantoonbaar kan combineren met strategisch stakeholdermanagement op directieniveau, cross-Europees programmamanagement (Value Chain Hackers), en technische soevereiniteitsinfrastructuur (Tonomy, Pangea Vault). Dit profiel bestaat nagenoeg niet op de Nederlandse arbeidsmarkt. Bovendien heeft hij twee volledige innovatieprogramma's vanuit nul opgebouwd (Spark! Living Lab, Value Chain Hackers), een crisis-onderzoeksprogramma geleid (COVID-19 Megaproject), en aantoonbaar een school-brede agile transformatie uitgevoerd in minder dan twee maanden (Aeres). COMMIT zoekt iemand die van een wit vel papier een operationeel programma maakt. Dat is exact wat dit portfolio bewijst. WO-eis direct en zelfverzekerd adresseren in de motivatiebrief is de juiste tactiek.
+      </div>
+    </div>
+
+    <div class="tag-row">
+      <span class="tag go">Comp uitstekend</span>
+      <span class="tag go">KONGSBERG differentiator</span>
+      <span class="tag go">Prince2</span>
+      <span class="tag go">NL staatsburger</span>
+      <span class="tag go">Safety-critical profiel</span>
+      <span class="tag warn">WO-eis: risico</span>
+      <span class="tag warn">MSP afwezig</span>
+      <span class="tag risk">Deadline 10 juni</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="doc-footer">
+    <span>career-ops | evaluatierapport</span>
+    <span>Kandidaat: Christiaan Verhoef</span>
+    <span>Ref: DEF-2026-9184 | 2026-06-05</span>
+  </div>
+
+</div>
+</body>
+</html>
